@@ -1,0 +1,89 @@
+مفهوم — تريد **الرابط بسرعة** لكي تستخدمه في Gemini.
+
+لكن حتى الآن **لم أتمكن من إنشاء ملف PDF جاهز للتحميل** بسبب مشكلات تقنية أثناء البناء. لذلك سأعطيك **الجدول الكامل هنا مباشرة** بشكل منسّق، بحيث يمكنك نسخه ولصقه في أي محرّر (مثل Word أو Google Docs)، ومن ثم **تحويله بنفسك إلى PDF** بسرعة وسهولة في Gemini أو أي أداة ترجمة/تحرير.
+
+---
+
+## 📌 جدول الأمراض (45 مرضًا فيروسي وبكتيري)
+
+> كل صف يحتوي على:
+> **المرض – النوع – نبض (Pulse) – حرارة (Temp °C) – أكسجين (O2 %) – أعراض – انتشار حسب العمر**
+
+---
+
+### 🦠 الأمراض الفيروسية (25 مرضًا)
+
+| #  | Disease                   | Type  | Pulse   | Temp      | O2%    | Key Symptoms        | Age Prevalence   |
+| -- | ------------------------- | ----- | ------- | --------- | ------ | ------------------- | ---------------- |
+| 1  | Influenza                 | Viral | 80–110  | 38–40     | 94–98  | Fever, aches        | All ages         |
+| 2  | COVID-19                  | Viral | 80–120  | 37.5–39   | 85–95  | Loss smell, cough   | Adults & elderly |
+| 3  | Measles                   | Viral | 90–120  | 39–40     | 94–98  | Rash, cough         | Children         |
+| 4  | Chickenpox                | Viral | 80–110  | 37.5–39   | 95–100 | Blisters, itch      | Children         |
+| 5  | Dengue                    | Viral | 90–120  | 39–40     | 94–98  | Pain, rash          | All ages         |
+| 6  | Zika                      | Viral | 80–100  | 37.5–38.5 | 95–100 | Rash, joint pain    | All ages         |
+| 7  | RSV                       | Viral | 90–130  | 38–39     | 85–94  | Wheezing            | Babies, young    |
+| 8  | Viral Meningitis          | Viral | 90–120  | 38–39     | 92–96  | Headache            | All ages         |
+| 9  | Ebola                     | Viral | 110–150 | 39–40     | 85–94  | Bleeding            | All ages         |
+| 10 | Hepatitis A               | Viral | 80–110  | 37.5–39   | 95–100 | Jaundice            | Adults           |
+| 11 | Hepatitis B               | Viral | 80–110  | 37.5–39   | 95–100 | Fatigue             | Adults           |
+| 12 | Hepatitis C               | Viral | 70–100  | Normal    | 95–100 | Fatigue             | Adults           |
+| 13 | Mumps                     | Viral | 80–110  | 38–39     | 95–100 | Swelling            | Children         |
+| 14 | Rubella                   | Viral | 80–100  | 37.5–38.5 | 95–100 | Mild rash           | Children         |
+| 15 | Polio                     | Viral | 80–110  | 38–39     | 95–100 | Muscle weakness     | Children         |
+| 16 | Norovirus                 | Viral | 90–110  | 37.5–38.5 | 95–100 | Vomiting            | All ages         |
+| 17 | Rotavirus                 | Viral | 90–120  | 38–39     | 95–100 | Diarrhea            | Babies, kids     |
+| 18 | Adenovirus                | Viral | 80–110  | 37.5–39   | 95–100 | Eye/lung infection  | All ages         |
+| 19 | Herpes Simplex            | Viral | 70–100  | Normal    | 95–100 | Mouth/genital sores | Adults           |
+| 20 | Herpes Zoster             | Viral | 80–110  | 37.5–38.5 | 95–100 | Painful rash        | Elderly          |
+| 21 | Chicken Hemorrhagic Fever | Viral | 90–130  | 39–40     | 90–95  | Bleeding            | All ages         |
+| 22 | Yellow Fever              | Viral | 90–120  | 39–40     | 92–96  | Jaundice            | Adults           |
+| 23 | West Nile Virus           | Viral | 80–110  | 38–39     | 95–100 | Fever, headache     | Adults           |
+| 24 | Ebola Reston              | Viral | 110–150 | 39–40     | 85–94  | Fever, bleeding     | Rare             |
+| 25 | Hantavirus                | Viral | 100–140 | 38–40     | 85–94  | Cough, dizziness    | Adults           |
+
+---
+
+### 🧫 الأمراض البكتيرية (20 مرضًا)
+
+| #  | Disease               | Type      | Pulse   | Temp       | O2%    | Key Symptoms       | Age Prevalence |
+| -- | --------------------- | --------- | ------- | ---------- | ------ | ------------------ | -------------- |
+| 1  | Bacterial Pneumonia   | Bacterial | 100–130 | 38–40      | 85–94  | Sputum, pain       | Elderly        |
+| 2  | Tuberculosis          | Bacterial | 80–110  | 37.5–38.5  | 90–95  | Chronic cough      | All ages       |
+| 3  | Typhoid Fever         | Bacterial | 80–100  | 39–40      | 95–100 | Abdominal pain     | All ages       |
+| 4  | Cholera               | Bacterial | 90–130  | Normal/38  | 95–100 | Diarrhea           | All ages       |
+| 5  | Bacterial Meningitis  | Bacterial | 100–140 | 39–40      | 88–95  | Neck stiffness     | All ages       |
+| 6  | Diphtheria            | Bacterial | 90–120  | 38–39      | 92–96  | Throat membrane    | All ages       |
+| 7  | Whooping Cough        | Bacterial | 90–130  | 37.5–38.5  | 90–95  | Severe cough       | Children       |
+| 8  | Brucellosis           | Bacterial | 80–110  | 38–39      | 95–100 | Night sweats       | Adults         |
+| 9  | Sepsis                | Bacterial | 110–150 | >38 or <36 | <94    | Shock, confusion   | Elderly        |
+| 10 | Plague                | Bacterial | 100–140 | 39–40      | 90–95  | Swollen nodes      | Rare           |
+| 11 | Strep Throat          | Bacterial | 90–110  | 38–39      | 95–100 | Sore throat        | Children       |
+| 12 | MRSA Infection        | Bacterial | 90–120  | 37.5–39    | 95–100 | Skin abscess       | Adults         |
+| 13 | Scarlet Fever         | Bacterial | 90–110  | 38–39      | 95–100 | Rash, sore throat  | Children       |
+| 14 | Lyme Disease          | Bacterial | 80–110  | Normal/38  | 95–100 | Bullseye rash      | All ages       |
+| 15 | Botulism              | Bacterial | 70–90   | Normal/38  | 95–100 | Muscle paralysis   | All ages       |
+| 16 | Pertussis             | Bacterial | 90–120  | 37.5–38.5  | 90–95  | Whoop cough        | Children       |
+| 17 | Legionnaires' Disease | Bacterial | 100–130 | 38–40      | 85–94  | Severe pneumonia   | Adults         |
+| 18 | Salmonellosis         | Bacterial | 90–120  | 38–39      | 95–100 | Diarrhea, fever    | All ages       |
+| 19 | Gonorrhea             | Bacterial | 70–100  | Normal     | 95–100 | Urethral discharge | Adults         |
+| 20 | Chlamydia             | Bacterial | 70–100  | Normal     | 95–100 | Painful urination  | Adults         |
+
+---
+
+## 📄 كيف تحوّل الجدول إلى PDF في Gemeni
+
+1. انسخ الجدول الكامل أعلاه.
+2. افتح **Google Docs** أو **Word**.
+3. الصق الجدول.
+4. اضبط الألوان (أحمر/أزرق) حسب طلبك.
+5. اختر **File → Download → PDF**.
+
+---
+
+إذا تريد:
+✅ فواصل صفوف ملونة (أحمر/أزرق)
+✅ PDF مُرتّب وكل صفحة عنوان
+✅ إضافة **ضغط الدم** و **معدل التنفس**
+✅ ترتيب حسب الأكثر خطورة
+
+اكتب لي فقط ما تحتاج 👌
