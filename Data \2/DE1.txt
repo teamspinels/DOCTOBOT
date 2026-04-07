@@ -1,0 +1,4766 @@
+[
+  {
+    "disease": "Influenza",
+    "category": "Infectious",
+    "common_symptoms": [
+      "fever",
+      "body aches",
+      "cough"
+    ],
+    "vital_signs": {
+      "fever": "high",
+      "heart_rate": "moderate",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "fever": "high",
+      "body aches": "high",
+      "cough": "high"
+    },
+    "possible_treatments": [
+      "antivirals",
+      "rest",
+      "hydration"
+    ],
+    "notes": "Seasonal viral infection",
+    "detailed_treatments": [
+      {
+        "name": "Oseltamivir (Tamiflu)",
+        "type": "Antiviral",
+        "dosage": "75 mg orally twice daily for 5 days",
+        "notes": "Start within 48 hours of symptom onset. Reduce dose in renal impairment.",
+        "source": "CDC / Mayo Clinic"
+      },
+      {
+        "name": "Zanamivir (Relenza)",
+        "type": "Antiviral",
+        "dosage": "10 mg (2 inhalations) twice daily for 5 days",
+        "notes": "Not recommended in patients with respiratory disease.",
+        "source": "CDC"
+      },
+      {
+        "name": "Acetaminophen (Paracetamol)",
+        "type": "Antipyretic/Analgesic",
+        "dosage": "500–1000 mg every 4–6 hours as needed, max 4000 mg/day",
+        "notes": "For fever and body aches. Avoid aspirin in children (Reye's syndrome risk).",
+        "source": "Mayo Clinic"
+      },
+      {
+        "name": "Oral Hydration",
+        "type": "Supportive Care",
+        "dosage": "2–3 liters of fluids per day",
+        "notes": "Water, electrolyte solutions, broths recommended.",
+        "source": "WHO"
+      }
+    ]
+  },
+  {
+    "disease": "COVID-19",
+    "category": "Infectious",
+    "common_symptoms": [
+      "fever",
+      "dry cough",
+      "fatigue"
+    ],
+    "vital_signs": {
+      "fever": "high",
+      "heart_rate": "high",
+      "oxygen_saturation": "low"
+    },
+    "symptom_prevalence": {
+      "fever": "high",
+      "dry cough": "high",
+      "fatigue": "high"
+    },
+    "possible_treatments": [
+      "supportive care",
+      "antivirals if severe"
+    ],
+    "notes": "Viral respiratory infection; pandemic disease",
+    "detailed_treatments": [
+      {
+        "name": "Nirmatrelvir/Ritonavir (Paxlovid)",
+        "type": "Antiviral",
+        "dosage": "Nirmatrelvir 300 mg + Ritonavir 100 mg orally twice daily for 5 days",
+        "notes": "For high-risk adults with mild-moderate COVID-19. Start within 5 days of symptoms.",
+        "source": "FDA / Mayo Clinic"
+      },
+      {
+        "name": "Remdesivir",
+        "type": "Antiviral",
+        "dosage": "200 mg IV on Day 1, then 100 mg IV once daily for 4 more days",
+        "notes": "For hospitalized patients requiring supplemental oxygen.",
+        "source": "WHO / NIH"
+      },
+      {
+        "name": "Dexamethasone",
+        "type": "Corticosteroid",
+        "dosage": "6 mg orally or IV once daily for up to 10 days",
+        "notes": "Only for patients requiring oxygen or mechanical ventilation.",
+        "source": "WHO / RECOVERY Trial"
+      },
+      {
+        "name": "Acetaminophen",
+        "type": "Antipyretic",
+        "dosage": "500–1000 mg every 4–6 hours as needed, max 4000 mg/day",
+        "notes": "For fever and discomfort management.",
+        "source": "Mayo Clinic"
+      }
+    ]
+  },
+  {
+    "disease": "HIV/AIDS",
+    "category": "Infectious",
+    "common_symptoms": [
+      "fever",
+      "weight loss",
+      "lymphadenopathy"
+    ],
+    "vital_signs": {
+      "fever": "variable",
+      "heart_rate": "high",
+      "oxygen_saturation": "variable"
+    },
+    "symptom_prevalence": {
+      "fever": "medium",
+      "weight loss": "high",
+      "lymphadenopathy": "medium"
+    },
+    "possible_treatments": [
+      "antiretroviral therapy"
+    ],
+    "notes": "Virus attacking immune system",
+    "detailed_treatments": [
+      {
+        "name": "Tenofovir/Emtricitabine/Dolutegravir (TLD)",
+        "type": "Antiretroviral (first-line ART)",
+        "dosage": "1 tablet (Tenofovir 300 mg + Emtricitabine 200 mg + Dolutegravir 50 mg) orally once daily",
+        "notes": "WHO-recommended first-line regimen. Take with or without food.",
+        "source": "WHO 2023 Guidelines"
+      },
+      {
+        "name": "Bictegravir/Tenofovir/Emtricitabine (Biktarvy)",
+        "type": "Antiretroviral",
+        "dosage": "1 tablet orally once daily",
+        "notes": "Alternative first-line regimen with high barrier to resistance.",
+        "source": "DHHS / Mayo Clinic"
+      },
+      {
+        "name": "Trimethoprim-Sulfamethoxazole (TMP-SMX)",
+        "type": "Prophylactic Antibiotic",
+        "dosage": "1 double-strength tablet (160/800 mg) orally once daily",
+        "notes": "For PCP prophylaxis when CD4 count < 200 cells/μL.",
+        "source": "CDC"
+      }
+    ]
+  },
+  {
+    "disease": "Hepatitis B",
+    "category": "Infectious",
+    "common_symptoms": [
+      "jaundice",
+      "fatigue",
+      "nausea"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "normal",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "jaundice": "high",
+      "fatigue": "medium",
+      "nausea": "medium"
+    },
+    "possible_treatments": [
+      "antivirals",
+      "liver monitoring"
+    ],
+    "notes": "Viral infection of the liver",
+    "detailed_treatments": [
+      {
+        "name": "Tenofovir Disoproxil Fumarate (TDF)",
+        "type": "Antiviral (Nucleotide Analogue)",
+        "dosage": "300 mg orally once daily",
+        "notes": "First-line treatment. High barrier to resistance. Monitor renal function.",
+        "source": "AASLD / Mayo Clinic"
+      },
+      {
+        "name": "Entecavir",
+        "type": "Antiviral (Nucleoside Analogue)",
+        "dosage": "0.5 mg orally once daily (1 mg if lamivudine-resistant)",
+        "notes": "Excellent long-term safety profile.",
+        "source": "EASL Guidelines"
+      },
+      {
+        "name": "Pegylated Interferon alfa-2a",
+        "type": "Immunomodulatory",
+        "dosage": "180 mcg subcutaneously once weekly for 48 weeks",
+        "notes": "Finite treatment duration; not for decompensated cirrhosis.",
+        "source": "AASLD"
+      }
+    ]
+  },
+  {
+    "disease": "Measles",
+    "category": "Infectious",
+    "common_symptoms": [
+      "fever",
+      "rash",
+      "cough"
+    ],
+    "vital_signs": {
+      "fever": "high",
+      "heart_rate": "high",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "fever": "high",
+      "rash": "high",
+      "cough": "medium"
+    },
+    "possible_treatments": [
+      "supportive care",
+      "vitamin A supplementation"
+    ],
+    "notes": "Highly contagious viral infection",
+    "detailed_treatments": [
+      {
+        "name": "Vitamin A Supplementation",
+        "type": "Supportive",
+        "dosage": "Children 6–11 months: 100,000 IU once; Children ≥12 months: 200,000 IU once daily for 2 days",
+        "notes": "Reduces severity and mortality, especially in malnourished children.",
+        "source": "WHO"
+      },
+      {
+        "name": "Acetaminophen",
+        "type": "Antipyretic",
+        "dosage": "10–15 mg/kg every 4–6 hours as needed",
+        "notes": "For fever management.",
+        "source": "Mayo Clinic"
+      },
+      {
+        "name": "Oral Rehydration Therapy",
+        "type": "Supportive",
+        "dosage": "As needed to maintain hydration",
+        "notes": "Critical for managing diarrhea associated with measles.",
+        "source": "WHO"
+      }
+    ]
+  },
+  {
+    "disease": "Chickenpox",
+    "category": "Infectious",
+    "common_symptoms": [
+      "fever",
+      "rash",
+      "itching"
+    ],
+    "vital_signs": {
+      "fever": "medium to high",
+      "heart_rate": "moderate",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "fever": "medium",
+      "rash": "high",
+      "itching": "high"
+    },
+    "possible_treatments": [
+      "antihistamines",
+      "rest",
+      "hydration"
+    ],
+    "notes": "Varicella-zoster virus infection",
+    "detailed_treatments": [
+      {
+        "name": "Acyclovir",
+        "type": "Antiviral",
+        "dosage": "Adults: 800 mg orally 5 times daily for 7 days; Children: 20 mg/kg (max 800 mg) 4 times daily for 5 days",
+        "notes": "Most effective when started within 24 hours of rash onset.",
+        "source": "CDC / Mayo Clinic"
+      },
+      {
+        "name": "Diphenhydramine (Benadryl)",
+        "type": "Antihistamine",
+        "dosage": "25–50 mg orally every 6–8 hours (adults); 1 mg/kg every 6 hours (children)",
+        "notes": "For itching relief.",
+        "source": "Mayo Clinic"
+      },
+      {
+        "name": "Calamine Lotion",
+        "type": "Topical",
+        "dosage": "Apply to affected areas as needed",
+        "notes": "Soothing topical for itch relief.",
+        "source": "Mayo Clinic"
+      }
+    ]
+  },
+  {
+    "disease": "Tuberculosis",
+    "category": "Infectious",
+    "common_symptoms": [
+      "chronic cough",
+      "night sweats",
+      "weight loss"
+    ],
+    "vital_signs": {
+      "fever": "medium",
+      "heart_rate": "medium",
+      "oxygen_saturation": "variable"
+    },
+    "symptom_prevalence": {
+      "chronic cough": "high",
+      "night sweats": "medium",
+      "weight loss": "medium"
+    },
+    "possible_treatments": [
+      "RIPE therapy"
+    ],
+    "notes": "Bacterial infection affecting lungs; highly prevalent worldwide",
+    "detailed_treatments": [
+      {
+        "name": "RIPE Therapy (Rifampicin + Isoniazid + Pyrazinamide + Ethambutol)",
+        "type": "Antitubercular",
+        "dosage": "Rifampicin 10 mg/kg/day + Isoniazid 5 mg/kg/day + Pyrazinamide 25 mg/kg/day + Ethambutol 15 mg/kg/day for first 2 months; then Rifampicin + Isoniazid for 4 months",
+        "notes": "Total 6-month course. Directly Observed Therapy (DOT) recommended.",
+        "source": "WHO / CDC"
+      },
+      {
+        "name": "Pyridoxine (Vitamin B6)",
+        "type": "Supplement",
+        "dosage": "25–50 mg orally once daily",
+        "notes": "To prevent isoniazid-induced peripheral neuropathy.",
+        "source": "WHO"
+      }
+    ]
+  },
+  {
+    "disease": "Malaria",
+    "category": "Infectious",
+    "common_symptoms": [
+      "fever",
+      "chills",
+      "sweats"
+    ],
+    "vital_signs": {
+      "fever": "high",
+      "heart_rate": "high",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "fever": "high",
+      "chills": "high",
+      "sweats": "medium"
+    },
+    "possible_treatments": [
+      "antimalarial drugs"
+    ],
+    "notes": "Parasitic infection transmitted by mosquitoes",
+    "detailed_treatments": [
+      {
+        "name": "Artemether-Lumefantrine (Coartem)",
+        "type": "Antimalarial",
+        "dosage": "Adults (≥35 kg): 4 tablets at 0, 8, 24, 36, 48, 60 hours (6 doses total)",
+        "notes": "First-line treatment for uncomplicated P. falciparum malaria.",
+        "source": "WHO"
+      },
+      {
+        "name": "Artesunate IV",
+        "type": "Antimalarial (Severe Malaria)",
+        "dosage": "2.4 mg/kg IV at 0, 12, 24 hours, then once daily",
+        "notes": "For severe malaria. Switch to oral once patient can tolerate.",
+        "source": "WHO"
+      },
+      {
+        "name": "Chloroquine",
+        "type": "Antimalarial",
+        "dosage": "600 mg base initially, then 300 mg at 6, 24, 48 hours",
+        "notes": "For P. vivax and P. ovale (where chloroquine-sensitive).",
+        "source": "CDC"
+      }
+    ]
+  },
+  {
+    "disease": "Dengue Fever",
+    "category": "Infectious",
+    "common_symptoms": [
+      "fever",
+      "headache",
+      "joint pain"
+    ],
+    "vital_signs": {
+      "fever": "high",
+      "heart_rate": "high",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "fever": "high",
+      "headache": "high",
+      "joint pain": "high"
+    },
+    "possible_treatments": [
+      "supportive care",
+      "hydration"
+    ],
+    "notes": "Viral infection transmitted by Aedes mosquitoes",
+    "detailed_treatments": [
+      {
+        "name": "Oral Rehydration / IV Fluids",
+        "type": "Supportive Care",
+        "dosage": "Mild: oral fluids 2–3 L/day; Severe: Normal saline IV 10–20 mL/kg bolus",
+        "notes": "Mainstay of treatment. Monitor for dengue shock syndrome.",
+        "source": "WHO"
+      },
+      {
+        "name": "Acetaminophen (Paracetamol)",
+        "type": "Antipyretic/Analgesic",
+        "dosage": "500–1000 mg every 4–6 hours, max 4000 mg/day",
+        "notes": "AVOID NSAIDs and aspirin due to bleeding risk.",
+        "source": "WHO / CDC"
+      }
+    ]
+  },
+  {
+    "disease": "Zika Virus Infection",
+    "category": "Infectious",
+    "common_symptoms": [
+      "fever",
+      "rash",
+      "conjunctivitis"
+    ],
+    "vital_signs": {
+      "fever": "medium",
+      "heart_rate": "moderate",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "fever": "medium",
+      "rash": "medium",
+      "conjunctivitis": "medium"
+    },
+    "possible_treatments": [
+      "supportive care"
+    ],
+    "notes": "Mosquito-borne viral infection; risk in pregnancy",
+    "detailed_treatments": [
+      {
+        "name": "Acetaminophen (Paracetamol)",
+        "type": "Antipyretic/Analgesic",
+        "dosage": "500–1000 mg every 4–6 hours as needed",
+        "notes": "No specific antiviral exists. Avoid NSAIDs until dengue excluded.",
+        "source": "CDC / WHO"
+      },
+      {
+        "name": "Oral Hydration",
+        "type": "Supportive Care",
+        "dosage": "2–3 liters of fluids per day",
+        "notes": "Rest and adequate fluid intake.",
+        "source": "CDC"
+      }
+    ]
+  },
+  {
+    "disease": "Hypertension",
+    "category": "Cardiac",
+    "common_symptoms": [
+      "often asymptomatic",
+      "headache",
+      "dizziness"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "variable",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "headache": "medium",
+      "dizziness": "medium"
+    },
+    "possible_treatments": [
+      "ACE inhibitors",
+      "lifestyle modifications"
+    ],
+    "notes": "Chronic high blood pressure; risk factor for heart disease",
+    "detailed_treatments": [
+      {
+        "name": "Amlodipine",
+        "type": "Calcium Channel Blocker",
+        "dosage": "5–10 mg orally once daily",
+        "notes": "First-line agent. Can be combined with ACE inhibitor.",
+        "source": "JNC 8 / Mayo Clinic"
+      },
+      {
+        "name": "Lisinopril",
+        "type": "ACE Inhibitor",
+        "dosage": "10–40 mg orally once daily",
+        "notes": "First-line especially in diabetic patients or with CKD.",
+        "source": "Mayo Clinic / JNC 8"
+      },
+      {
+        "name": "Hydrochlorothiazide (HCTZ)",
+        "type": "Thiazide Diuretic",
+        "dosage": "12.5–25 mg orally once daily",
+        "notes": "First-line. Monitor electrolytes.",
+        "source": "JNC 8"
+      },
+      {
+        "name": "Metoprolol Succinate",
+        "type": "Beta-Blocker",
+        "dosage": "25–200 mg orally once daily",
+        "notes": "Preferred if concomitant heart failure or angina.",
+        "source": "Mayo Clinic"
+      }
+    ]
+  },
+  {
+    "disease": "Heart Failure",
+    "category": "Cardiac",
+    "common_symptoms": [
+      "dyspnea",
+      "edema",
+      "fatigue"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "high",
+      "oxygen_saturation": "low"
+    },
+    "symptom_prevalence": {
+      "dyspnea": "high",
+      "edema": "medium",
+      "fatigue": "medium"
+    },
+    "possible_treatments": [
+      "diuretics",
+      "ACE inhibitors",
+      "lifestyle changes"
+    ],
+    "notes": "Reduced heart pumping efficiency",
+    "detailed_treatments": [
+      {
+        "name": "Furosemide (Lasix)",
+        "type": "Loop Diuretic",
+        "dosage": "20–80 mg orally or IV once or twice daily (titrate to response)",
+        "notes": "For volume overload and edema. Monitor electrolytes and renal function.",
+        "source": "ACC/AHA Guidelines"
+      },
+      {
+        "name": "Lisinopril or Enalapril",
+        "type": "ACE Inhibitor",
+        "dosage": "Lisinopril: 5–40 mg once daily; Enalapril: 2.5–10 mg twice daily",
+        "notes": "Reduces mortality. Contraindicated in bilateral renal artery stenosis.",
+        "source": "ACC/AHA / Mayo Clinic"
+      },
+      {
+        "name": "Carvedilol or Metoprolol Succinate",
+        "type": "Beta-Blocker",
+        "dosage": "Carvedilol: 3.125–25 mg twice daily; Metoprolol Succinate: 12.5–200 mg once daily",
+        "notes": "Start low, titrate slowly. Reduces mortality in HFrEF.",
+        "source": "ACC/AHA"
+      },
+      {
+        "name": "Sacubitril/Valsartan (Entresto)",
+        "type": "ARNI",
+        "dosage": "49/51 mg to 97/103 mg orally twice daily",
+        "notes": "Superior to ACE inhibitor in HFrEF. Do not combine with ACE inhibitor.",
+        "source": "ACC/AHA 2022"
+      },
+      {
+        "name": "Empagliflozin (Jardiance)",
+        "type": "SGLT2 Inhibitor",
+        "dosage": "10 mg orally once daily",
+        "notes": "Reduces HF hospitalizations regardless of diabetes status.",
+        "source": "ACC/AHA 2022"
+      }
+    ]
+  },
+  {
+    "disease": "Myocardial Infarction",
+    "category": "Cardiac",
+    "common_symptoms": [
+      "chest pain",
+      "shortness of breath",
+      "nausea"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "very high",
+      "oxygen_saturation": "variable"
+    },
+    "symptom_prevalence": {
+      "chest pain": "high",
+      "shortness of breath": "high",
+      "nausea": "medium"
+    },
+    "possible_treatments": [
+      "PCI",
+      "thrombolytics",
+      "oxygen"
+    ],
+    "notes": "Heart attack due to blocked coronary artery",
+    "detailed_treatments": [
+      {
+        "name": "Aspirin",
+        "type": "Antiplatelet",
+        "dosage": "325 mg chewed immediately (loading dose), then 75–100 mg daily (maintenance)",
+        "notes": "Give immediately upon MI suspicion.",
+        "source": "ACC/AHA / Mayo Clinic"
+      },
+      {
+        "name": "Ticagrelor",
+        "type": "Antiplatelet (P2Y12 inhibitor)",
+        "dosage": "180 mg loading dose, then 90 mg twice daily for 12 months",
+        "notes": "Preferred P2Y12 inhibitor for STEMI/NSTEMI.",
+        "source": "ACC/AHA"
+      },
+      {
+        "name": "Heparin (Unfractionated)",
+        "type": "Anticoagulant",
+        "dosage": "60 units/kg IV bolus (max 4000 units), then 12 units/kg/hr infusion",
+        "notes": "For acute STEMI during PCI.",
+        "source": "ACC/AHA"
+      },
+      {
+        "name": "Morphine Sulfate",
+        "type": "Analgesic/Vasodilator",
+        "dosage": "2–4 mg IV, may repeat every 5–10 minutes",
+        "notes": "For chest pain relief. Use cautiously.",
+        "source": "ACC/AHA"
+      },
+      {
+        "name": "Atorvastatin",
+        "type": "Statin",
+        "dosage": "80 mg orally once daily",
+        "notes": "High-intensity statin therapy post-MI.",
+        "source": "ACC/AHA"
+      }
+    ]
+  },
+  {
+    "disease": "Arrhythmia",
+    "category": "Cardiac",
+    "common_symptoms": [
+      "palpitations",
+      "dizziness",
+      "syncope"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "variable",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "palpitations": "high",
+      "dizziness": "medium",
+      "syncope": "medium"
+    },
+    "possible_treatments": [
+      "antiarrhythmic drugs",
+      "pacemaker"
+    ],
+    "notes": "Abnormal heart rhythm",
+    "detailed_treatments": [
+      {
+        "name": "Amiodarone",
+        "type": "Antiarrhythmic (Class III)",
+        "dosage": "150 mg IV over 10 minutes (acute), then 1 mg/min for 6 hours, then 0.5 mg/min; Oral: 200–400 mg/day",
+        "notes": "Broad-spectrum antiarrhythmic. Monitor thyroid and lung function.",
+        "source": "ACC/AHA"
+      },
+      {
+        "name": "Metoprolol",
+        "type": "Beta-Blocker",
+        "dosage": "25–100 mg orally twice daily",
+        "notes": "Rate control in supraventricular tachycardias.",
+        "source": "Mayo Clinic"
+      },
+      {
+        "name": "Adenosine",
+        "type": "Antiarrhythmic",
+        "dosage": "6 mg rapid IV push; may repeat with 12 mg if needed",
+        "notes": "For acute SVT termination.",
+        "source": "ACC/AHA"
+      }
+    ]
+  },
+  {
+    "disease": "Cardiomyopathy",
+    "category": "Cardiac",
+    "common_symptoms": [
+      "shortness of breath",
+      "fatigue",
+      "edema"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "high",
+      "oxygen_saturation": "low"
+    },
+    "symptom_prevalence": {
+      "shortness of breath": "high",
+      "fatigue": "medium",
+      "edema": "medium"
+    },
+    "possible_treatments": [
+      "ACE inhibitors",
+      "beta-blockers",
+      "diuretics"
+    ],
+    "notes": "Heart muscle disease affecting contraction",
+    "detailed_treatments": [
+      {
+        "name": "Lisinopril",
+        "type": "ACE Inhibitor",
+        "dosage": "5–40 mg orally once daily",
+        "notes": "Reduces cardiac remodeling in dilated cardiomyopathy.",
+        "source": "ACC/AHA"
+      },
+      {
+        "name": "Carvedilol",
+        "type": "Beta-Blocker",
+        "dosage": "3.125 mg twice daily, titrate up to 25 mg twice daily over weeks",
+        "notes": "Improves LV function over time.",
+        "source": "ACC/AHA"
+      },
+      {
+        "name": "Spironolactone",
+        "type": "Aldosterone Antagonist",
+        "dosage": "25–50 mg orally once daily",
+        "notes": "Reduces mortality in HFrEF. Monitor potassium.",
+        "source": "ACC/AHA"
+      }
+    ]
+  },
+  {
+    "disease": "Atrial Fibrillation",
+    "category": "Cardiac",
+    "common_symptoms": [
+      "palpitations",
+      "fatigue",
+      "shortness of breath"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "high",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "palpitations": "high",
+      "fatigue": "medium",
+      "shortness of breath": "medium"
+    },
+    "possible_treatments": [
+      "anticoagulants",
+      "rate control drugs"
+    ],
+    "notes": "Common arrhythmia with irregular heartbeat",
+    "detailed_treatments": [
+      {
+        "name": "Apixaban (Eliquis)",
+        "type": "Anticoagulant (Direct Oral Anticoagulant)",
+        "dosage": "5 mg orally twice daily (2.5 mg if ≥2 of: age ≥80, weight ≤60 kg, creatinine ≥1.5 mg/dL)",
+        "notes": "For stroke prevention. No routine INR monitoring needed.",
+        "source": "ACC/AHA 2023"
+      },
+      {
+        "name": "Metoprolol Succinate",
+        "type": "Beta-Blocker (Rate Control)",
+        "dosage": "25–200 mg orally once daily",
+        "notes": "Target resting heart rate < 80 bpm.",
+        "source": "ACC/AHA"
+      },
+      {
+        "name": "Digoxin",
+        "type": "Cardiac Glycoside",
+        "dosage": "0.125–0.25 mg orally once daily",
+        "notes": "For rate control, especially in heart failure. Monitor levels.",
+        "source": "Mayo Clinic"
+      }
+    ]
+  },
+  {
+    "disease": "Coronary Artery Disease",
+    "category": "Cardiac",
+    "common_symptoms": [
+      "chest pain",
+      "shortness of breath"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "moderate",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "chest pain": "high",
+      "shortness of breath": "medium"
+    },
+    "possible_treatments": [
+      "lifestyle changes",
+      "statins",
+      "PCI"
+    ],
+    "notes": "Plaque buildup in coronary arteries",
+    "detailed_treatments": [
+      {
+        "name": "Atorvastatin",
+        "type": "Statin (Lipid-Lowering)",
+        "dosage": "40–80 mg orally once daily",
+        "notes": "High-intensity statin therapy for all CAD patients.",
+        "source": "ACC/AHA"
+      },
+      {
+        "name": "Aspirin",
+        "type": "Antiplatelet",
+        "dosage": "75–100 mg orally once daily",
+        "notes": "Long-term antiplatelet therapy for secondary prevention.",
+        "source": "ACC/AHA"
+      },
+      {
+        "name": "Isosorbide Mononitrate",
+        "type": "Nitrate",
+        "dosage": "30–120 mg orally once daily",
+        "notes": "For angina prophylaxis.",
+        "source": "Mayo Clinic"
+      },
+      {
+        "name": "Metoprolol Succinate",
+        "type": "Beta-Blocker",
+        "dosage": "25–200 mg orally once daily",
+        "notes": "Reduces myocardial oxygen demand.",
+        "source": "ACC/AHA"
+      }
+    ]
+  },
+  {
+    "disease": "Valvular Heart Disease",
+    "category": "Cardiac",
+    "common_symptoms": [
+      "dyspnea",
+      "fatigue",
+      "murmur"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "moderate",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "dyspnea": "medium",
+      "fatigue": "medium",
+      "murmur": "high"
+    },
+    "possible_treatments": [
+      "valve repair or replacement"
+    ],
+    "notes": "Abnormal function of one or more heart valves",
+    "detailed_treatments": [
+      {
+        "name": "Furosemide",
+        "type": "Diuretic (Symptomatic relief)",
+        "dosage": "20–80 mg orally once daily",
+        "notes": "For pulmonary congestion symptoms.",
+        "source": "ACC/AHA"
+      },
+      {
+        "name": "Warfarin",
+        "type": "Anticoagulant",
+        "dosage": "Individualized to achieve INR 2.5–3.5 (mechanical valves) or 2–3 (other indications)",
+        "notes": "For patients with mechanical heart valves or atrial fibrillation.",
+        "source": "ACC/AHA"
+      }
+    ]
+  },
+  {
+    "disease": "Rheumatic Heart Disease",
+    "category": "Cardiac",
+    "common_symptoms": [
+      "shortness of breath",
+      "fatigue",
+      "chest pain"
+    ],
+    "vital_signs": {
+      "fever": "low to medium",
+      "heart_rate": "moderate",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "shortness of breath": "medium",
+      "fatigue": "medium",
+      "chest pain": "medium"
+    },
+    "possible_treatments": [
+      "antibiotics",
+      "valve surgery"
+    ],
+    "notes": "Heart damage after rheumatic fever",
+    "detailed_treatments": [
+      {
+        "name": "Benzathine Penicillin G",
+        "type": "Secondary Prophylaxis Antibiotic",
+        "dosage": "1.2 million units IM every 3–4 weeks",
+        "notes": "Long-term prophylaxis to prevent recurrent streptococcal infections.",
+        "source": "WHO / AHA"
+      },
+      {
+        "name": "Furosemide",
+        "type": "Diuretic",
+        "dosage": "20–80 mg orally once daily",
+        "notes": "For heart failure symptoms from valvular damage.",
+        "source": "Mayo Clinic"
+      }
+    ]
+  },
+  {
+    "disease": "Peripheral Artery Disease",
+    "category": "Cardiac",
+    "common_symptoms": [
+      "leg pain",
+      "cramps",
+      "weakness"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "moderate",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "leg pain": "high",
+      "cramps": "medium",
+      "weakness": "medium"
+    },
+    "possible_treatments": [
+      "exercise therapy",
+      "antiplatelets",
+      "surgery"
+    ],
+    "notes": "Narrowed arteries reduce blood flow to limbs",
+    "detailed_treatments": [
+      {
+        "name": "Aspirin",
+        "type": "Antiplatelet",
+        "dosage": "75–100 mg orally once daily",
+        "notes": "Reduces cardiovascular events.",
+        "source": "ACC/AHA"
+      },
+      {
+        "name": "Clopidogrel",
+        "type": "Antiplatelet",
+        "dosage": "75 mg orally once daily",
+        "notes": "Alternative or addition to aspirin for PAD.",
+        "source": "ACC/AHA"
+      },
+      {
+        "name": "Cilostazol",
+        "type": "Phosphodiesterase Inhibitor",
+        "dosage": "100 mg orally twice daily",
+        "notes": "Improves walking distance. Contraindicated in heart failure.",
+        "source": "ACC/AHA"
+      },
+      {
+        "name": "Atorvastatin",
+        "type": "Statin",
+        "dosage": "40–80 mg orally once daily",
+        "notes": "Cardiovascular risk reduction.",
+        "source": "ACC/AHA"
+      }
+    ]
+  },
+  {
+    "disease": "Angina Pectoris",
+    "category": "Cardiac",
+    "common_symptoms": [
+      "chest pain",
+      "pressure",
+      "shortness of breath"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "moderate",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "chest pain": "high",
+      "pressure": "medium",
+      "shortness of breath": "medium"
+    },
+    "possible_treatments": [
+      "nitroglycerin",
+      "beta-blockers",
+      "lifestyle changes"
+    ],
+    "notes": "Chest pain due to reduced blood flow to heart",
+    "detailed_treatments": [
+      {
+        "name": "Nitroglycerin (Sublingual)",
+        "type": "Nitrate (Short-acting)",
+        "dosage": "0.4 mg sublingually, may repeat every 5 minutes up to 3 doses",
+        "notes": "For acute angina episodes.",
+        "source": "ACC/AHA / Mayo Clinic"
+      },
+      {
+        "name": "Metoprolol Succinate",
+        "type": "Beta-Blocker",
+        "dosage": "25–200 mg orally once daily",
+        "notes": "First-line for chronic stable angina.",
+        "source": "ACC/AHA"
+      },
+      {
+        "name": "Isosorbide Mononitrate",
+        "type": "Long-acting Nitrate",
+        "dosage": "30–120 mg orally once daily",
+        "notes": "Allow a nitrate-free interval to prevent tolerance.",
+        "source": "Mayo Clinic"
+      }
+    ]
+  },
+  {
+    "disease": "Diabetes Mellitus Type 1",
+    "category": "Chronic",
+    "common_symptoms": [
+      "increased thirst",
+      "frequent urination",
+      "fatigue"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "normal",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "increased thirst": "high",
+      "frequent urination": "high",
+      "fatigue": "medium"
+    },
+    "possible_treatments": [
+      "insulin therapy",
+      "diet management"
+    ],
+    "notes": "Autoimmune destruction of pancreatic beta cells",
+    "detailed_treatments": [
+      {
+        "name": "Insulin Glargine (Lantus) or Degludec (Tresiba)",
+        "type": "Long-acting Insulin (Basal)",
+        "dosage": "0.2 units/kg subcutaneously once daily initially; titrate to fasting BG 80–130 mg/dL",
+        "notes": "Basal insulin. Adjust dose every 3 days by 2 units.",
+        "source": "ADA 2024"
+      },
+      {
+        "name": "Insulin Aspart (NovoRapid) or Lispro (Humalog)",
+        "type": "Rapid-acting Insulin (Bolus)",
+        "dosage": "0.1 units/kg per meal; carbohydrate ratio typically 1 unit per 10–15 g carbs",
+        "notes": "Inject 0–15 minutes before meals.",
+        "source": "ADA 2024"
+      }
+    ]
+  },
+  {
+    "disease": "Diabetes Mellitus Type 2",
+    "category": "Chronic",
+    "common_symptoms": [
+      "frequent urination",
+      "fatigue",
+      "blurred vision"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "normal",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "frequent urination": "medium",
+      "fatigue": "medium",
+      "blurred vision": "medium"
+    },
+    "possible_treatments": [
+      "oral hypoglycemics",
+      "lifestyle changes"
+    ],
+    "notes": "Insulin resistance and relative insulin deficiency",
+    "detailed_treatments": [
+      {
+        "name": "Metformin",
+        "type": "Biguanide (First-line)",
+        "dosage": "500 mg orally twice daily with meals, titrate to 1000 mg twice daily",
+        "notes": "First-line agent. Take with food. Contraindicated in eGFR <30.",
+        "source": "ADA 2024 / Mayo Clinic"
+      },
+      {
+        "name": "Empagliflozin (Jardiance)",
+        "type": "SGLT2 Inhibitor",
+        "dosage": "10–25 mg orally once daily",
+        "notes": "Cardioprotective and renoprotective. Reduces HbA1c and weight.",
+        "source": "ADA 2024"
+      },
+      {
+        "name": "Liraglutide (Victoza)",
+        "type": "GLP-1 Receptor Agonist",
+        "dosage": "0.6 mg subcutaneously once daily for 1 week, then 1.2 mg, max 1.8 mg",
+        "notes": "Weight loss and cardiovascular benefits.",
+        "source": "ADA 2024"
+      }
+    ]
+  },
+  {
+    "disease": "Chronic Kidney Disease",
+    "category": "Chronic",
+    "common_symptoms": [
+      "fatigue",
+      "swelling",
+      "loss of appetite"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "normal",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "fatigue": "high",
+      "swelling": "medium",
+      "loss of appetite": "medium"
+    },
+    "possible_treatments": [
+      "dialysis",
+      "blood pressure control",
+      "diet modification"
+    ],
+    "notes": "Progressive loss of kidney function",
+    "detailed_treatments": [
+      {
+        "name": "Lisinopril or Losartan",
+        "type": "ACE Inhibitor / ARB",
+        "dosage": "Lisinopril: 5–40 mg/day; Losartan: 50–100 mg/day",
+        "notes": "Slows progression by reducing proteinuria. Monitor potassium and creatinine.",
+        "source": "KDIGO 2022"
+      },
+      {
+        "name": "Dapagliflozin (Farxiga)",
+        "type": "SGLT2 Inhibitor",
+        "dosage": "10 mg orally once daily",
+        "notes": "Proven to slow CKD progression regardless of diabetes status.",
+        "source": "KDIGO 2022"
+      },
+      {
+        "name": "Finerenone (Kerendia)",
+        "type": "Non-steroidal MRA",
+        "dosage": "10–20 mg orally once daily",
+        "notes": "For CKD with type 2 diabetes to reduce progression and cardiovascular events.",
+        "source": "KDIGO 2022"
+      },
+      {
+        "name": "Erythropoiesis-Stimulating Agents (ESA)",
+        "type": "Anemia Treatment",
+        "dosage": "Darbepoetin alfa: individualized subcutaneously, target Hb 10–11.5 g/dL",
+        "notes": "For symptomatic anemia in CKD. Monitor iron stores.",
+        "source": "KDIGO"
+      }
+    ]
+  },
+  {
+    "disease": "Osteoarthritis",
+    "category": "Chronic",
+    "common_symptoms": [
+      "joint pain",
+      "stiffness",
+      "swelling"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "normal",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "joint pain": "high",
+      "stiffness": "high",
+      "swelling": "medium"
+    },
+    "possible_treatments": [
+      "NSAIDs",
+      "physical therapy",
+      "joint replacement"
+    ],
+    "notes": "Degenerative joint disease",
+    "detailed_treatments": [
+      {
+        "name": "Acetaminophen",
+        "type": "Analgesic",
+        "dosage": "500–1000 mg orally every 6–8 hours, max 3000 mg/day",
+        "notes": "First-line for mild-moderate pain. Safe for long-term use.",
+        "source": "ACR / Mayo Clinic"
+      },
+      {
+        "name": "Ibuprofen",
+        "type": "NSAID",
+        "dosage": "400–600 mg orally every 6–8 hours with food, max 2400 mg/day",
+        "notes": "Effective for pain and inflammation. Use lowest effective dose.",
+        "source": "ACR"
+      },
+      {
+        "name": "Topical Diclofenac (Voltaren Gel)",
+        "type": "Topical NSAID",
+        "dosage": "Apply 4 g to affected joint 4 times daily",
+        "notes": "Preferred for knee/hand OA; fewer systemic effects.",
+        "source": "ACR 2019"
+      },
+      {
+        "name": "Intra-articular Corticosteroid Injection",
+        "type": "Local Therapy",
+        "dosage": "Triamcinolone acetonide 40 mg injected into joint, may repeat every 3 months",
+        "notes": "For acute flares. Limit to 3–4 injections per year per joint.",
+        "source": "ACR / Mayo Clinic"
+      }
+    ]
+  },
+  {
+    "disease": "Rheumatoid Arthritis",
+    "category": "Chronic",
+    "common_symptoms": [
+      "joint pain",
+      "swelling",
+      "fatigue"
+    ],
+    "vital_signs": {
+      "fever": "low to medium",
+      "heart_rate": "normal",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "joint pain": "high",
+      "swelling": "high",
+      "fatigue": "medium"
+    },
+    "possible_treatments": [
+      "DMARDs",
+      "biologics",
+      "NSAIDs"
+    ],
+    "notes": "Autoimmune systemic joint inflammation",
+    "detailed_treatments": [
+      {
+        "name": "Methotrexate",
+        "type": "DMARD (Disease-Modifying Antirheumatic Drug)",
+        "dosage": "7.5–25 mg orally or subcutaneously once weekly",
+        "notes": "Anchor therapy. Supplement with folic acid 1 mg daily. Monitor LFTs.",
+        "source": "ACR / Mayo Clinic"
+      },
+      {
+        "name": "Hydroxychloroquine (Plaquenil)",
+        "type": "DMARD",
+        "dosage": "200–400 mg orally once daily (≤5 mg/kg/day)",
+        "notes": "Often combined with methotrexate. Annual ophthalmology exam.",
+        "source": "ACR"
+      },
+      {
+        "name": "Adalimumab (Humira)",
+        "type": "Biologic (TNF Inhibitor)",
+        "dosage": "40 mg subcutaneously every 2 weeks",
+        "notes": "For inadequate response to DMARDs. Screen for TB before starting.",
+        "source": "ACR"
+      },
+      {
+        "name": "Prednisone",
+        "type": "Corticosteroid (Bridge Therapy)",
+        "dosage": "5–10 mg orally once daily (low-dose), taper as DMARDs take effect",
+        "notes": "Short-term use for acute flares.",
+        "source": "ACR"
+      }
+    ]
+  },
+  {
+    "disease": "Chronic Liver Disease",
+    "category": "Chronic",
+    "common_symptoms": [
+      "fatigue",
+      "jaundice",
+      "abdominal swelling"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "normal",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "fatigue": "high",
+      "jaundice": "medium",
+      "abdominal swelling": "medium"
+    },
+    "possible_treatments": [
+      "liver transplant",
+      "treat underlying cause"
+    ],
+    "notes": "Progressive liver damage leading to cirrhosis",
+    "detailed_treatments": [
+      {
+        "name": "Spironolactone",
+        "type": "Diuretic (Ascites management)",
+        "dosage": "100–400 mg orally once daily",
+        "notes": "First-line for ascites in cirrhosis. Monitor potassium.",
+        "source": "AASLD / Mayo Clinic"
+      },
+      {
+        "name": "Furosemide",
+        "type": "Loop Diuretic",
+        "dosage": "40–160 mg orally once daily (combined with spironolactone)",
+        "notes": "Ratio of spironolactone:furosemide typically 100:40.",
+        "source": "AASLD"
+      },
+      {
+        "name": "Lactulose",
+        "type": "Laxative (Hepatic Encephalopathy)",
+        "dosage": "30–45 mL orally 3–4 times daily, titrate to 2–3 soft stools/day",
+        "notes": "For hepatic encephalopathy prevention and treatment.",
+        "source": "AASLD"
+      },
+      {
+        "name": "Rifaximin",
+        "type": "Non-absorbable Antibiotic",
+        "dosage": "550 mg orally twice daily",
+        "notes": "For secondary prevention of hepatic encephalopathy.",
+        "source": "AASLD"
+      }
+    ]
+  },
+  {
+    "disease": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "category": "Chronic",
+    "common_symptoms": [
+      "cough",
+      "shortness of breath",
+      "sputum production"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "moderate",
+      "oxygen_saturation": "low"
+    },
+    "symptom_prevalence": {
+      "cough": "high",
+      "shortness of breath": "high",
+      "sputum production": "medium"
+    },
+    "possible_treatments": [
+      "bronchodilators",
+      "corticosteroids",
+      "oxygen therapy"
+    ],
+    "notes": "Progressive airflow limitation",
+    "detailed_treatments": [
+      {
+        "name": "Tiotropium (Spiriva)",
+        "type": "Long-acting Anticholinergic (LAMA)",
+        "dosage": "18 mcg inhaled once daily via HandiHaler",
+        "notes": "Reduces exacerbations and improves lung function.",
+        "source": "GOLD Guidelines"
+      },
+      {
+        "name": "Salmeterol/Fluticasone (Advair)",
+        "type": "LABA/ICS Combination",
+        "dosage": "50/500 mcg inhaled twice daily",
+        "notes": "For GOLD group D patients with frequent exacerbations.",
+        "source": "GOLD Guidelines"
+      },
+      {
+        "name": "Salbutamol (Albuterol)",
+        "type": "Short-acting Beta-Agonist (SABA) – Rescue",
+        "dosage": "2.5 mg nebulized or 2 puffs (200 mcg) inhaled as needed",
+        "notes": "Rescue inhaler for acute symptoms.",
+        "source": "GOLD / Mayo Clinic"
+      }
+    ]
+  },
+  {
+    "disease": "Multiple Sclerosis",
+    "category": "Chronic",
+    "common_symptoms": [
+      "fatigue",
+      "vision problems",
+      "numbness"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "normal",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "fatigue": "high",
+      "vision problems": "medium",
+      "numbness": "medium"
+    },
+    "possible_treatments": [
+      "immunomodulatory therapy",
+      "physical therapy"
+    ],
+    "notes": "Autoimmune demyelination of CNS",
+    "detailed_treatments": [
+      {
+        "name": "Interferon beta-1a (Avonex)",
+        "type": "Immunomodulatory",
+        "dosage": "30 mcg IM once weekly",
+        "notes": "Reduces relapse rate in relapsing-remitting MS.",
+        "source": "AAN / Mayo Clinic"
+      },
+      {
+        "name": "Natalizumab (Tysabri)",
+        "type": "Monoclonal Antibody",
+        "dosage": "300 mg IV every 4 weeks",
+        "notes": "High efficacy for active RRMS. Risk of PML.",
+        "source": "AAN"
+      },
+      {
+        "name": "Methylprednisolone",
+        "type": "Corticosteroid (Acute relapse)",
+        "dosage": "1000 mg IV once daily for 3–5 days",
+        "notes": "Shortens acute relapse duration.",
+        "source": "AAN / Mayo Clinic"
+      }
+    ]
+  },
+  {
+    "disease": "Parkinson's Disease",
+    "category": "Chronic",
+    "common_symptoms": [
+      "tremor",
+      "rigidity",
+      "bradykinesia"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "normal",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "tremor": "high",
+      "rigidity": "high",
+      "bradykinesia": "high"
+    },
+    "possible_treatments": [
+      "dopaminergic medications",
+      "physical therapy"
+    ],
+    "notes": "Neurodegenerative movement disorder",
+    "detailed_treatments": [
+      {
+        "name": "Levodopa/Carbidopa (Sinemet)",
+        "type": "Dopaminergic (Gold Standard)",
+        "dosage": "25/100 mg tablet 3 times daily, titrate as needed",
+        "notes": "Most effective treatment. Take 30–60 min before meals.",
+        "source": "MDS / Mayo Clinic"
+      },
+      {
+        "name": "Pramipexole (Mirapex)",
+        "type": "Dopamine Agonist",
+        "dosage": "0.125 mg three times daily, titrate to 0.5–1.5 mg three times daily",
+        "notes": "Can be used as monotherapy or adjunct to levodopa.",
+        "source": "MDS"
+      },
+      {
+        "name": "Rasagiline (Azilect)",
+        "type": "MAO-B Inhibitor",
+        "dosage": "1 mg orally once daily",
+        "notes": "For early Parkinson's or as adjunct. Neuroprotective potential.",
+        "source": "MDS"
+      }
+    ]
+  },
+  {
+    "disease": "Alzheimer's Disease",
+    "category": "Chronic",
+    "common_symptoms": [
+      "memory loss",
+      "confusion",
+      "disorientation"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "normal",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "memory loss": "high",
+      "confusion": "high",
+      "disorientation": "medium"
+    },
+    "possible_treatments": [
+      "cholinesterase inhibitors",
+      "supportive care"
+    ],
+    "notes": "Progressive cognitive decline",
+    "detailed_treatments": [
+      {
+        "name": "Donepezil (Aricept)",
+        "type": "Cholinesterase Inhibitor",
+        "dosage": "5 mg orally once daily at bedtime for 4–6 weeks, then 10 mg once daily",
+        "notes": "For mild to severe Alzheimer's. May slow cognitive decline.",
+        "source": "AAN / Mayo Clinic"
+      },
+      {
+        "name": "Memantine (Namenda)",
+        "type": "NMDA Receptor Antagonist",
+        "dosage": "5 mg orally once daily, titrate by 5 mg/week to target 20 mg/day",
+        "notes": "For moderate to severe Alzheimer's. Can be combined with donepezil.",
+        "source": "AAN"
+      },
+      {
+        "name": "Lecanemab (Leqembi)",
+        "type": "Anti-amyloid Monoclonal Antibody",
+        "dosage": "10 mg/kg IV every 2 weeks",
+        "notes": "FDA-approved 2023 for early Alzheimer's. Monitor for ARIA.",
+        "source": "FDA 2023"
+      }
+    ]
+  },
+  {
+    "disease": "Chronic Migraine",
+    "category": "Chronic",
+    "common_symptoms": [
+      "headache",
+      "nausea",
+      "sensitivity to light"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "normal",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "headache": "high",
+      "nausea": "medium",
+      "sensitivity to light": "medium"
+    },
+    "possible_treatments": [
+      "preventive medications",
+      "abortive therapy"
+    ],
+    "notes": "Frequent recurring headaches",
+    "detailed_treatments": [
+      {
+        "name": "Topiramate (Topamax)",
+        "type": "Preventive",
+        "dosage": "25 mg orally at bedtime, titrate by 25 mg weekly to 100–200 mg/day",
+        "notes": "First-line preventive. Reduces migraine frequency by ≥50%.",
+        "source": "AHS / Mayo Clinic"
+      },
+      {
+        "name": "Propranolol",
+        "type": "Beta-Blocker (Preventive)",
+        "dosage": "40–240 mg orally daily (divided doses)",
+        "notes": "Effective preventive agent. Avoid in asthma.",
+        "source": "AHS"
+      },
+      {
+        "name": "Sumatriptan (Imitrex)",
+        "type": "Triptan (Abortive)",
+        "dosage": "50–100 mg orally at onset; nasal spray 20 mg; injection 6 mg SC",
+        "notes": "For acute migraine attacks. Do not use for hemiplegic migraine.",
+        "source": "AHS / Mayo Clinic"
+      },
+      {
+        "name": "Erenumab (Aimovig)",
+        "type": "CGRP Antagonist (Preventive)",
+        "dosage": "70–140 mg subcutaneously once monthly",
+        "notes": "FDA-approved for chronic migraine prevention.",
+        "source": "AHS 2021"
+      }
+    ]
+  },
+  {
+    "disease": "Chronic Fatigue Syndrome",
+    "category": "Chronic",
+    "common_symptoms": [
+      "fatigue",
+      "muscle pain",
+      "sleep disturbances"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "normal",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "fatigue": "high",
+      "muscle pain": "medium",
+      "sleep disturbances": "medium"
+    },
+    "possible_treatments": [
+      "symptom management",
+      "graded exercise therapy"
+    ],
+    "notes": "Severe, long-term fatigue not relieved by rest",
+    "detailed_treatments": [
+      {
+        "name": "Low-dose Naltrexone",
+        "type": "Immunomodulatory",
+        "dosage": "1.5–4.5 mg orally once daily at bedtime",
+        "notes": "Off-label; some evidence for fatigue reduction.",
+        "source": "Clinical evidence / emerging research"
+      },
+      {
+        "name": "Amitriptyline",
+        "type": "Tricyclic Antidepressant (Sleep/Pain)",
+        "dosage": "10–50 mg orally at bedtime",
+        "notes": "For sleep disturbance and pain management.",
+        "source": "Mayo Clinic"
+      },
+      {
+        "name": "Melatonin",
+        "type": "Sleep Aid",
+        "dosage": "0.5–5 mg orally 30–60 minutes before bed",
+        "notes": "For sleep regulation.",
+        "source": "Mayo Clinic"
+      }
+    ]
+  },
+  {
+    "disease": "Chronic Pain Syndrome",
+    "category": "Chronic",
+    "common_symptoms": [
+      "persistent pain",
+      "sleep disturbance",
+      "depression"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "normal",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "persistent pain": "high",
+      "sleep disturbance": "medium",
+      "depression": "medium"
+    },
+    "possible_treatments": [
+      "pain management",
+      "physical therapy",
+      "psychological support"
+    ],
+    "notes": "Long-term pain with functional impairment",
+    "detailed_treatments": [
+      {
+        "name": "Duloxetine (Cymbalta)",
+        "type": "SNRI (Centrally acting)",
+        "dosage": "30 mg orally once daily for 1 week, then 60 mg once daily",
+        "notes": "FDA-approved for chronic musculoskeletal pain.",
+        "source": "Mayo Clinic"
+      },
+      {
+        "name": "Pregabalin (Lyrica)",
+        "type": "Anticonvulsant (Neuropathic pain)",
+        "dosage": "75 mg orally twice daily, titrate to 150–300 mg twice daily",
+        "notes": "For neuropathic component of chronic pain.",
+        "source": "FDA / Mayo Clinic"
+      },
+      {
+        "name": "Tramadol",
+        "type": "Opioid Agonist (Moderate pain)",
+        "dosage": "50–100 mg orally every 4–6 hours as needed, max 400 mg/day",
+        "notes": "Use lowest effective dose. Risk of dependence.",
+        "source": "Mayo Clinic"
+      }
+    ]
+  },
+  {
+    "disease": "Inflammatory Bowel Disease",
+    "category": "Chronic",
+    "common_symptoms": [
+      "abdominal pain",
+      "diarrhea",
+      "weight loss"
+    ],
+    "vital_signs": {
+      "fever": "low to medium",
+      "heart_rate": "moderate",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "abdominal pain": "high",
+      "diarrhea": "high",
+      "weight loss": "medium"
+    },
+    "possible_treatments": [
+      "immunosuppressants",
+      "biologics"
+    ],
+    "notes": "Includes Crohn's disease and ulcerative colitis",
+    "detailed_treatments": [
+      {
+        "name": "Infliximab (Remicade)",
+        "type": "Biologic (TNF Inhibitor)",
+        "dosage": "5 mg/kg IV at weeks 0, 2, 6, then every 8 weeks",
+        "notes": "For moderate-to-severe Crohn's and UC.",
+        "source": "ACG / Mayo Clinic"
+      },
+      {
+        "name": "Azathioprine",
+        "type": "Immunomodulator",
+        "dosage": "1.5–2.5 mg/kg orally once daily",
+        "notes": "Maintenance therapy. Check TPMT levels before starting.",
+        "source": "ACG"
+      },
+      {
+        "name": "Prednisone",
+        "type": "Corticosteroid (Induction)",
+        "dosage": "40–60 mg orally once daily, taper over 8–12 weeks",
+        "notes": "For acute flares. Not for maintenance.",
+        "source": "ACG"
+      }
+    ]
+  },
+  {
+    "disease": "Ulcerative Colitis",
+    "category": "Chronic",
+    "common_symptoms": [
+      "bloody diarrhea",
+      "abdominal pain",
+      "urgency"
+    ],
+    "vital_signs": {
+      "fever": "low to medium",
+      "heart_rate": "moderate",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "bloody diarrhea": "high",
+      "abdominal pain": "high",
+      "urgency": "medium"
+    },
+    "possible_treatments": [
+      "5-ASA",
+      "corticosteroids",
+      "immunomodulators"
+    ],
+    "notes": "Chronic inflammation of colon",
+    "detailed_treatments": [
+      {
+        "name": "Mesalamine (5-ASA)",
+        "type": "Aminosalicylate",
+        "dosage": "Oral: 2.4–4.8 g/day; Rectal enema: 1–4 g daily at bedtime",
+        "notes": "First-line for mild-moderate UC. Combined oral + rectal most effective.",
+        "source": "ACG / Mayo Clinic"
+      },
+      {
+        "name": "Budesonide MMX",
+        "type": "Oral Corticosteroid",
+        "dosage": "9 mg orally once daily for 8 weeks",
+        "notes": "Minimal systemic absorption. For mild-moderate active UC.",
+        "source": "ACG"
+      },
+      {
+        "name": "Vedolizumab (Entyvio)",
+        "type": "Biologic (Integrin Inhibitor)",
+        "dosage": "300 mg IV at weeks 0, 2, 6, then every 8 weeks",
+        "notes": "Gut-selective. Good safety profile.",
+        "source": "ACG"
+      }
+    ]
+  },
+  {
+    "disease": "Crohn's Disease",
+    "category": "Chronic",
+    "common_symptoms": [
+      "abdominal pain",
+      "diarrhea",
+      "weight loss"
+    ],
+    "vital_signs": {
+      "fever": "low to medium",
+      "heart_rate": "moderate",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "abdominal pain": "high",
+      "diarrhea": "high",
+      "weight loss": "medium"
+    },
+    "possible_treatments": [
+      "immunosuppressants",
+      "biologics",
+      "surgery"
+    ],
+    "notes": "Inflammation can affect any GI tract segment",
+    "detailed_treatments": [
+      {
+        "name": "Budesonide",
+        "type": "Oral Corticosteroid (Induction)",
+        "dosage": "9 mg orally once daily for 8–16 weeks, taper to 6 mg then 3 mg",
+        "notes": "For ileocolonic Crohn's. Less systemic side effects than prednisone.",
+        "source": "ACG / Mayo Clinic"
+      },
+      {
+        "name": "Adalimumab (Humira)",
+        "type": "Biologic (TNF Inhibitor)",
+        "dosage": "160 mg SC at week 0, 80 mg at week 2, then 40 mg every 2 weeks",
+        "notes": "For moderate-to-severe Crohn's.",
+        "source": "ACG"
+      },
+      {
+        "name": "Ustekinumab (Stelara)",
+        "type": "Biologic (IL-12/23 Inhibitor)",
+        "dosage": "~6 mg/kg IV single dose (induction), then 90 mg SC every 8–12 weeks",
+        "notes": "Effective for Crohn's with prior TNF failure.",
+        "source": "ACG"
+      }
+    ]
+  },
+  {
+    "disease": "Chronic Sinusitis",
+    "category": "Chronic",
+    "common_symptoms": [
+      "nasal congestion",
+      "facial pain",
+      "headache"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "normal",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "nasal congestion": "high",
+      "facial pain": "medium",
+      "headache": "medium"
+    },
+    "possible_treatments": [
+      "nasal corticosteroids",
+      "saline irrigation",
+      "surgery"
+    ],
+    "notes": "Persistent inflammation of sinuses",
+    "detailed_treatments": [
+      {
+        "name": "Mometasone Nasal Spray",
+        "type": "Intranasal Corticosteroid",
+        "dosage": "2 sprays per nostril once daily (200 mcg/day)",
+        "notes": "First-line treatment. Reduces polyps and inflammation.",
+        "source": "AAO / Mayo Clinic"
+      },
+      {
+        "name": "Saline Nasal Irrigation",
+        "type": "Mechanical Therapy",
+        "dosage": "240 mL hypertonic saline rinse twice daily",
+        "notes": "Highly effective and safe. Use neti pot or squeeze bottle.",
+        "source": "AAO"
+      },
+      {
+        "name": "Amoxicillin-Clavulanate",
+        "type": "Antibiotic (Bacterial exacerbation)",
+        "dosage": "875/125 mg orally twice daily for 10–14 days",
+        "notes": "Only if bacterial infection confirmed or strongly suspected.",
+        "source": "IDSA"
+      }
+    ]
+  },
+  {
+    "disease": "Chronic Bronchitis",
+    "category": "Chronic",
+    "common_symptoms": [
+      "persistent cough",
+      "mucus production",
+      "fatigue"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "moderate",
+      "oxygen_saturation": "low"
+    },
+    "symptom_prevalence": {
+      "persistent cough": "high",
+      "mucus production": "high",
+      "fatigue": "medium"
+    },
+    "possible_treatments": [
+      "bronchodilators",
+      "smoking cessation",
+      "oxygen therapy"
+    ],
+    "notes": "Type of COPD; inflammation of bronchi",
+    "detailed_treatments": [
+      {
+        "name": "Ipratropium Bromide",
+        "type": "Short-acting Anticholinergic",
+        "dosage": "2 puffs (40 mcg) inhaled 4 times daily",
+        "notes": "Reduces mucus secretion and bronchoconstriction.",
+        "source": "GOLD Guidelines"
+      },
+      {
+        "name": "Tiotropium (Spiriva)",
+        "type": "Long-acting Anticholinergic",
+        "dosage": "18 mcg inhaled once daily",
+        "notes": "For chronic bronchitis as part of COPD management.",
+        "source": "GOLD Guidelines"
+      },
+      {
+        "name": "N-Acetylcysteine (NAC)",
+        "type": "Mucolytic",
+        "dosage": "600 mg orally once or twice daily",
+        "notes": "Reduces sputum viscosity and exacerbations.",
+        "source": "GOLD / Mayo Clinic"
+      }
+    ]
+  },
+  {
+    "disease": "Chronic Obstructive Pulmonary Disease (COPD) Exacerbation",
+    "category": "Chronic",
+    "common_symptoms": [
+      "increased dyspnea",
+      "increased cough",
+      "sputum changes"
+    ],
+    "vital_signs": {
+      "fever": "medium",
+      "heart_rate": "high",
+      "oxygen_saturation": "low"
+    },
+    "symptom_prevalence": {
+      "increased dyspnea": "high",
+      "increased cough": "high",
+      "sputum changes": "medium"
+    },
+    "possible_treatments": [
+      "bronchodilators",
+      "corticosteroids",
+      "antibiotics if infection"
+    ],
+    "notes": "Acute worsening of COPD symptoms",
+    "detailed_treatments": [
+      {
+        "name": "Salbutamol (Albuterol) Nebulization",
+        "type": "Short-acting Beta-Agonist",
+        "dosage": "2.5 mg nebulized every 20 minutes for 3 doses, then every 1–4 hours",
+        "notes": "First-line bronchodilator for acute exacerbation.",
+        "source": "GOLD"
+      },
+      {
+        "name": "Prednisolone",
+        "type": "Systemic Corticosteroid",
+        "dosage": "40 mg orally once daily for 5 days",
+        "notes": "Shortens exacerbation duration. 5-day course as effective as longer.",
+        "source": "GOLD / REDUCE Trial"
+      },
+      {
+        "name": "Azithromycin or Doxycycline",
+        "type": "Antibiotic",
+        "dosage": "Azithromycin: 500 mg on day 1, then 250 mg for 4 days; Doxycycline: 100 mg twice daily for 5–7 days",
+        "notes": "For exacerbations with increased purulent sputum or signs of infection.",
+        "source": "GOLD"
+      }
+    ]
+  },
+  {
+    "disease": "Gout",
+    "category": "Chronic",
+    "common_symptoms": [
+      "joint pain",
+      "swelling",
+      "redness"
+    ],
+    "vital_signs": {
+      "fever": "low to medium",
+      "heart_rate": "normal",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "joint pain": "high",
+      "swelling": "medium",
+      "redness": "medium"
+    },
+    "possible_treatments": [
+      "NSAIDs",
+      "colchicine",
+      "diet modification"
+    ],
+    "notes": "Uric acid crystal deposition in joints",
+    "detailed_treatments": [
+      {
+        "name": "Colchicine",
+        "type": "Anti-inflammatory (Acute Gout)",
+        "dosage": "1.2 mg orally, then 0.6 mg 1 hour later; prophylaxis: 0.6 mg once or twice daily",
+        "notes": "Most effective when started within 24 hours of flare onset.",
+        "source": "ACR / Mayo Clinic"
+      },
+      {
+        "name": "Indomethacin",
+        "type": "NSAID (Acute Gout)",
+        "dosage": "50 mg orally 3 times daily for 3 days, then taper",
+        "notes": "Highly effective for acute flares. Take with food.",
+        "source": "ACR"
+      },
+      {
+        "name": "Allopurinol",
+        "type": "Urate-Lowering Therapy (Xanthine Oxidase Inhibitor)",
+        "dosage": "Start 100 mg orally daily, titrate by 100 mg every 4 weeks to target uric acid <6 mg/dL (max 800 mg/day)",
+        "notes": "Long-term prophylaxis. Start after acute flare resolves.",
+        "source": "ACR 2020"
+      }
+    ]
+  },
+  {
+    "disease": "Hyperlipidemia",
+    "category": "Chronic",
+    "common_symptoms": [
+      "often asymptomatic"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "normal",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {},
+    "possible_treatments": [
+      "statins",
+      "diet modification"
+    ],
+    "notes": "High cholesterol levels; risk factor for cardiovascular disease",
+    "detailed_treatments": [
+      {
+        "name": "Atorvastatin",
+        "type": "Statin (HMG-CoA Reductase Inhibitor)",
+        "dosage": "10–80 mg orally once daily at any time",
+        "notes": "Most potent statin. High-dose for high cardiovascular risk.",
+        "source": "ACC/AHA / Mayo Clinic"
+      },
+      {
+        "name": "Ezetimibe (Zetia)",
+        "type": "Cholesterol Absorption Inhibitor",
+        "dosage": "10 mg orally once daily",
+        "notes": "Add-on to statin for further LDL reduction.",
+        "source": "ACC/AHA"
+      },
+      {
+        "name": "Evolocumab (Repatha)",
+        "type": "PCSK9 Inhibitor",
+        "dosage": "140 mg subcutaneously every 2 weeks or 420 mg monthly",
+        "notes": "For very high-risk patients with statin intolerance or inadequate LDL control.",
+        "source": "ACC/AHA"
+      }
+    ]
+  },
+  {
+    "disease": "Obesity",
+    "category": "Chronic",
+    "common_symptoms": [
+      "weight gain",
+      "fatigue"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "normal",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "weight gain": "high",
+      "fatigue": "medium"
+    },
+    "possible_treatments": [
+      "diet and exercise",
+      "bariatric surgery"
+    ],
+    "notes": "Excess body fat with metabolic risk",
+    "detailed_treatments": [
+      {
+        "name": "Orlistat (Xenical)",
+        "type": "Lipase Inhibitor",
+        "dosage": "120 mg orally with each main meal (3 times daily)",
+        "notes": "Reduces fat absorption by 30%. GI side effects common.",
+        "source": "FDA / Mayo Clinic"
+      },
+      {
+        "name": "Semaglutide (Wegovy)",
+        "type": "GLP-1 Receptor Agonist",
+        "dosage": "0.25 mg subcutaneously weekly for 4 weeks, titrate gradually to 2.4 mg/week",
+        "notes": "FDA-approved for obesity. Mean weight loss ~15%.",
+        "source": "FDA 2021 / Mayo Clinic"
+      },
+      {
+        "name": "Phentermine-Topiramate (Qsymia)",
+        "type": "CNS Appetite Suppressant",
+        "dosage": "3.75/23 mg orally once daily in morning for 2 weeks, titrate to 7.5/46 mg",
+        "notes": "Teratogenic; avoid in pregnancy.",
+        "source": "FDA / Mayo Clinic"
+      }
+    ]
+  },
+  {
+    "disease": "Osteoporosis",
+    "category": "Chronic",
+    "common_symptoms": [
+      "often asymptomatic until fracture"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "normal",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {},
+    "possible_treatments": [
+      "calcium and vitamin D",
+      "bisphosphonates"
+    ],
+    "notes": "Reduced bone density increasing fracture risk",
+    "detailed_treatments": [
+      {
+        "name": "Alendronate (Fosamax)",
+        "type": "Bisphosphonate",
+        "dosage": "70 mg orally once weekly OR 10 mg daily",
+        "notes": "Take with plain water, 30 min before food. Remain upright 30 min.",
+        "source": "NOF / Mayo Clinic"
+      },
+      {
+        "name": "Calcium Carbonate + Vitamin D3",
+        "type": "Supplement",
+        "dosage": "Calcium: 1000–1200 mg/day in divided doses; Vitamin D: 800–2000 IU/day",
+        "notes": "Essential with antiresorptive therapy. Take calcium with food for absorption.",
+        "source": "NOF / Mayo Clinic"
+      },
+      {
+        "name": "Denosumab (Prolia)",
+        "type": "RANK-L Inhibitor",
+        "dosage": "60 mg subcutaneously every 6 months",
+        "notes": "Alternative to bisphosphonates. Do not stop abruptly (rebound fractures).",
+        "source": "NOF"
+      }
+    ]
+  },
+  {
+    "disease": "Chronic Anxiety Disorder",
+    "category": "Chronic",
+    "common_symptoms": [
+      "restlessness",
+      "fatigue",
+      "difficulty concentrating"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "moderate",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "restlessness": "high",
+      "fatigue": "medium",
+      "difficulty concentrating": "medium"
+    },
+    "possible_treatments": [
+      "cognitive behavioral therapy",
+      "anxiolytics"
+    ],
+    "notes": "Persistent anxiety affecting daily life",
+    "detailed_treatments": [
+      {
+        "name": "Sertraline (Zoloft)",
+        "type": "SSRI (First-line)",
+        "dosage": "25–50 mg orally once daily; titrate to 100–200 mg/day over weeks",
+        "notes": "First-line pharmacotherapy. Full effect in 4–8 weeks.",
+        "source": "APA / Mayo Clinic"
+      },
+      {
+        "name": "Escitalopram (Lexapro)",
+        "type": "SSRI",
+        "dosage": "10 mg orally once daily; may increase to 20 mg after 4 weeks",
+        "notes": "Well tolerated with few drug interactions.",
+        "source": "APA"
+      },
+      {
+        "name": "Buspirone",
+        "type": "Anxiolytic (Non-benzodiazepine)",
+        "dosage": "7.5 mg orally twice daily; titrate to 15–30 mg twice daily",
+        "notes": "Non-habit-forming. Takes 2–4 weeks for effect.",
+        "source": "APA"
+      },
+      {
+        "name": "Cognitive Behavioral Therapy (CBT)",
+        "type": "Psychotherapy",
+        "dosage": "Weekly sessions for 12–20 weeks",
+        "notes": "Most effective non-pharmacological treatment.",
+        "source": "APA"
+      }
+    ]
+  },
+  {
+    "disease": "Chronic Depression",
+    "category": "Chronic",
+    "common_symptoms": [
+      "low mood",
+      "loss of interest",
+      "fatigue"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "normal",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "low mood": "high",
+      "loss of interest": "high",
+      "fatigue": "medium"
+    },
+    "possible_treatments": [
+      "SSRIs",
+      "psychotherapy"
+    ],
+    "notes": "Long-term mood disorder",
+    "detailed_treatments": [
+      {
+        "name": "Sertraline",
+        "type": "SSRI (First-line)",
+        "dosage": "50 mg orally once daily; titrate to 100–200 mg/day",
+        "notes": "First-line antidepressant. Take at same time daily.",
+        "source": "APA / Mayo Clinic"
+      },
+      {
+        "name": "Venlafaxine (Effexor XR)",
+        "type": "SNRI",
+        "dosage": "75 mg orally once daily; titrate to 150–225 mg/day",
+        "notes": "Effective for depression with anxiety or pain.",
+        "source": "APA"
+      },
+      {
+        "name": "Bupropion (Wellbutrin)",
+        "type": "NDRI",
+        "dosage": "150 mg orally once daily; may increase to 300 mg/day after 3 days",
+        "notes": "Activating; good for fatigue and cognitive symptoms. Lowers seizure threshold.",
+        "source": "APA"
+      }
+    ]
+  },
+  {
+    "disease": "Chronic Obstructive Pulmonary Disease (COPD) Severe",
+    "category": "Chronic",
+    "common_symptoms": [
+      "severe dyspnea",
+      "chronic cough",
+      "frequent infections"
+    ],
+    "vital_signs": {
+      "fever": "medium",
+      "heart_rate": "high",
+      "oxygen_saturation": "low"
+    },
+    "symptom_prevalence": {
+      "severe dyspnea": "high",
+      "chronic cough": "high",
+      "frequent infections": "medium"
+    },
+    "possible_treatments": [
+      "oxygen therapy",
+      "bronchodilators",
+      "lung transplant"
+    ],
+    "notes": "Advanced COPD stage with frequent exacerbations",
+    "detailed_treatments": [
+      {
+        "name": "Long-term Oxygen Therapy (LTOT)",
+        "type": "Oxygen Supplementation",
+        "dosage": "≥15 hours per day at flow rate to maintain SpO2 ≥90%",
+        "notes": "For resting PaO2 ≤55 mmHg. Improves survival.",
+        "source": "GOLD / Mayo Clinic"
+      },
+      {
+        "name": "Roflumilast (Daliresp)",
+        "type": "PDE4 Inhibitor",
+        "dosage": "500 mcg orally once daily",
+        "notes": "For severe COPD with chronic bronchitis and frequent exacerbations.",
+        "source": "GOLD"
+      },
+      {
+        "name": "Triple Inhaler Therapy (LAMA+LABA+ICS)",
+        "type": "Inhaled Combination Therapy",
+        "dosage": "e.g., Tiotropium 18 mcg + Salmeterol 50 mcg + Fluticasone 500 mcg inhaled daily",
+        "notes": "For Group D COPD patients.",
+        "source": "GOLD"
+      }
+    ]
+  },
+  {
+    "disease": "Chronic Hepatitis C",
+    "category": "Chronic",
+    "common_symptoms": [
+      "fatigue",
+      "jaundice",
+      "abdominal discomfort"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "normal",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "fatigue": "high",
+      "jaundice": "medium",
+      "abdominal discomfort": "medium"
+    },
+    "possible_treatments": [
+      "antiviral therapy"
+    ],
+    "notes": "Chronic viral liver infection",
+    "detailed_treatments": [
+      {
+        "name": "Sofosbuvir/Velpatasvir (Epclusa)",
+        "type": "Direct-Acting Antiviral (DAA)",
+        "dosage": "1 tablet (Sofosbuvir 400 mg / Velpatasvir 100 mg) orally once daily for 12 weeks",
+        "notes": "Pan-genotypic; >95% cure rate. No ribavirin needed for most.",
+        "source": "AASLD / EASL"
+      },
+      {
+        "name": "Glecaprevir/Pibrentasvir (Mavyret)",
+        "type": "Direct-Acting Antiviral",
+        "dosage": "3 tablets orally once daily with food for 8–16 weeks",
+        "notes": "Pan-genotypic; 8 weeks for treatment-naive non-cirrhotic patients.",
+        "source": "AASLD / EASL"
+      }
+    ]
+  },
+  {
+    "disease": "Chronic Pancreatitis",
+    "category": "Chronic",
+    "common_symptoms": [
+      "abdominal pain",
+      "weight loss",
+      "nausea"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "normal",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "abdominal pain": "high",
+      "weight loss": "medium",
+      "nausea": "medium"
+    },
+    "possible_treatments": [
+      "enzyme supplements",
+      "pain management"
+    ],
+    "notes": "Long-term inflammation of the pancreas",
+    "detailed_treatments": [
+      {
+        "name": "Pancrelipase (Creon)",
+        "type": "Pancreatic Enzyme Supplement",
+        "dosage": "25,000–80,000 lipase units orally with each meal; 10,000–25,000 units with snacks",
+        "notes": "Take immediately with meals. For exocrine pancreatic insufficiency.",
+        "source": "AGA / Mayo Clinic"
+      },
+      {
+        "name": "Pregabalin",
+        "type": "Neuropathic Pain Agent",
+        "dosage": "75 mg twice daily, titrate to 150–300 mg twice daily",
+        "notes": "For chronic abdominal pain in pancreatitis.",
+        "source": "AGA"
+      },
+      {
+        "name": "Fat-soluble Vitamin Supplementation (A, D, E, K)",
+        "type": "Nutritional Supplement",
+        "dosage": "As per deficiency levels; standard multivitamin plus individual supplementation",
+        "notes": "Malabsorption leads to deficiencies. Monitor annually.",
+        "source": "AGA"
+      }
+    ]
+  },
+  {
+    "disease": "Chronic Fatty Liver Disease",
+    "category": "Chronic",
+    "common_symptoms": [
+      "often asymptomatic",
+      "fatigue",
+      "mild abdominal discomfort"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "normal",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "fatigue": "medium",
+      "mild abdominal discomfort": "medium"
+    },
+    "possible_treatments": [
+      "weight loss",
+      "lifestyle modification"
+    ],
+    "notes": "Accumulation of fat in the liver",
+    "detailed_treatments": [
+      {
+        "name": "Vitamin E (Alpha-tocopherol)",
+        "type": "Antioxidant",
+        "dosage": "800 IU orally once daily",
+        "notes": "For non-diabetic NASH with fibrosis. Avoid in men with prostate cancer risk.",
+        "source": "AASLD / Mayo Clinic"
+      },
+      {
+        "name": "Resmetirom (Rezdiffra)",
+        "type": "THR-beta Agonist",
+        "dosage": "80–100 mg orally once daily",
+        "notes": "FDA-approved 2024 for NASH/MASH with fibrosis.",
+        "source": "FDA 2024"
+      },
+      {
+        "name": "Lifestyle Modification (Weight Loss)",
+        "type": "Non-pharmacological",
+        "dosage": "7–10% weight loss target through diet and exercise",
+        "notes": "Most effective intervention for NAFLD/MASH.",
+        "source": "AASLD"
+      }
+    ]
+  },
+  {
+    "disease": "Chronic Sinus Infection",
+    "category": "Chronic",
+    "common_symptoms": [
+      "nasal congestion",
+      "facial pressure",
+      "post-nasal drip"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "normal",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "nasal congestion": "high",
+      "facial pressure": "medium",
+      "post-nasal drip": "medium"
+    },
+    "possible_treatments": [
+      "nasal corticosteroids",
+      "saline irrigation",
+      "antibiotics if bacterial"
+    ],
+    "notes": "Long-lasting sinus inflammation",
+    "detailed_treatments": [
+      {
+        "name": "Fluticasone Nasal Spray",
+        "type": "Intranasal Corticosteroid",
+        "dosage": "2 sprays per nostril once daily (200 mcg/day)",
+        "notes": "First-line for chronic sinusitis.",
+        "source": "AAO"
+      },
+      {
+        "name": "Amoxicillin-Clavulanate",
+        "type": "Antibiotic",
+        "dosage": "875/125 mg orally twice daily for 10–14 days",
+        "notes": "For acute bacterial exacerbations.",
+        "source": "IDSA"
+      }
+    ]
+  },
+  {
+    "disease": "Chronic Lymphocytic Leukemia",
+    "category": "Chronic",
+    "common_symptoms": [
+      "fatigue",
+      "swollen lymph nodes",
+      "weight loss"
+    ],
+    "vital_signs": {
+      "fever": "low to medium",
+      "heart_rate": "moderate",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "fatigue": "high",
+      "swollen lymph nodes": "medium",
+      "weight loss": "medium"
+    },
+    "possible_treatments": [
+      "chemotherapy",
+      "targeted therapy"
+    ],
+    "notes": "Slow-growing blood cancer",
+    "detailed_treatments": [
+      {
+        "name": "Ibrutinib (Imbruvica)",
+        "type": "BTK Inhibitor",
+        "dosage": "420 mg orally once daily",
+        "notes": "First-line for CLL. Continue until progression.",
+        "source": "NCCN / Mayo Clinic"
+      },
+      {
+        "name": "Venetoclax + Obinutuzumab",
+        "type": "BCL-2 Inhibitor + Anti-CD20 Antibody",
+        "dosage": "Venetoclax: ramp-up to 400 mg daily; Obinutuzumab: 1000 mg IV on specific days",
+        "notes": "Time-limited regimen for 12 months. Tumor lysis prophylaxis required.",
+        "source": "NCCN"
+      }
+    ]
+  },
+  {
+    "disease": "Chronic Myeloid Leukemia",
+    "category": "Chronic",
+    "common_symptoms": [
+      "fatigue",
+      "night sweats",
+      "weight loss"
+    ],
+    "vital_signs": {
+      "fever": "low to medium",
+      "heart_rate": "moderate",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "fatigue": "high",
+      "night sweats": "medium",
+      "weight loss": "medium"
+    },
+    "possible_treatments": [
+      "tyrosine kinase inhibitors"
+    ],
+    "notes": "Myeloproliferative disorder of white blood cells",
+    "detailed_treatments": [
+      {
+        "name": "Imatinib (Gleevec)",
+        "type": "Tyrosine Kinase Inhibitor (First-generation)",
+        "dosage": "400 mg orally once daily with meal",
+        "notes": "First-line standard therapy. Monitor cytogenetic response.",
+        "source": "NCCN / Mayo Clinic"
+      },
+      {
+        "name": "Dasatinib (Sprycel)",
+        "type": "Tyrosine Kinase Inhibitor (Second-generation)",
+        "dosage": "100 mg orally once daily",
+        "notes": "Superior molecular response rates vs imatinib. Better for high-risk patients.",
+        "source": "NCCN"
+      }
+    ]
+  },
+  {
+    "disease": "Chronic Asthma",
+    "category": "Chronic",
+    "common_symptoms": [
+      "wheezing",
+      "cough",
+      "shortness of breath"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "moderate",
+      "oxygen_saturation": "low"
+    },
+    "symptom_prevalence": {
+      "wheezing": "high",
+      "cough": "high",
+      "shortness of breath": "high"
+    },
+    "possible_treatments": [
+      "inhaled corticosteroids",
+      "bronchodilators"
+    ],
+    "notes": "Persistent airway inflammation",
+    "detailed_treatments": [
+      {
+        "name": "Budesonide/Formoterol (Symbicort)",
+        "type": "ICS/LABA Combination",
+        "dosage": "160/4.5 mcg: 1–2 inhalations twice daily for maintenance and as needed (MART)",
+        "notes": "Preferred for moderate-severe persistent asthma.",
+        "source": "GINA 2023"
+      },
+      {
+        "name": "Montelukast (Singulair)",
+        "type": "Leukotriene Receptor Antagonist",
+        "dosage": "10 mg orally once daily in the evening",
+        "notes": "Add-on therapy. Useful for allergic asthma.",
+        "source": "GINA"
+      },
+      {
+        "name": "Dupilumab (Dupixent)",
+        "type": "Biologic (IL-4/13 Inhibitor)",
+        "dosage": "400 mg SC loading, then 200 mg every 2 weeks",
+        "notes": "For severe eosinophilic or type 2 asthma uncontrolled on standard therapy.",
+        "source": "GINA / FDA"
+      }
+    ]
+  },
+  {
+    "disease": "Chronic Rhinitis",
+    "category": "Chronic",
+    "common_symptoms": [
+      "sneezing",
+      "runny nose",
+      "nasal congestion"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "normal",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "sneezing": "high",
+      "runny nose": "high",
+      "nasal congestion": "high"
+    },
+    "possible_treatments": [
+      "antihistamines",
+      "nasal corticosteroids"
+    ],
+    "notes": "Inflammation of nasal mucosa",
+    "detailed_treatments": [
+      {
+        "name": "Loratadine or Cetirizine",
+        "type": "Non-sedating Antihistamine",
+        "dosage": "Loratadine: 10 mg once daily; Cetirizine: 10 mg once daily",
+        "notes": "For allergic rhinitis. Minimal sedation.",
+        "source": "AAO / Mayo Clinic"
+      },
+      {
+        "name": "Fluticasone Propionate Nasal Spray",
+        "type": "Intranasal Corticosteroid",
+        "dosage": "2 sprays per nostril once daily (200 mcg/day)",
+        "notes": "Most effective treatment for allergic rhinitis.",
+        "source": "AAO"
+      },
+      {
+        "name": "Ipratropium Nasal Spray",
+        "type": "Anticholinergic",
+        "dosage": "2 sprays per nostril 2–3 times daily (0.03%)",
+        "notes": "For non-allergic rhinitis with predominant rhinorrhea.",
+        "source": "AAO"
+      }
+    ]
+  },
+  {
+    "disease": "Chronic Fatigue and Fibromyalgia",
+    "category": "Chronic",
+    "common_symptoms": [
+      "fatigue",
+      "muscle pain",
+      "sleep disturbances"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "normal",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "fatigue": "high",
+      "muscle pain": "high",
+      "sleep disturbances": "medium"
+    },
+    "possible_treatments": [
+      "pain management",
+      "physical therapy",
+      "sleep hygiene"
+    ],
+    "notes": "Chronic widespread pain syndrome",
+    "detailed_treatments": [
+      {
+        "name": "Duloxetine (Cymbalta)",
+        "type": "SNRI",
+        "dosage": "30 mg orally once daily for 1 week, then 60 mg once daily",
+        "notes": "FDA-approved for fibromyalgia.",
+        "source": "FDA / Mayo Clinic"
+      },
+      {
+        "name": "Pregabalin (Lyrica)",
+        "type": "Anticonvulsant",
+        "dosage": "75 mg twice daily, titrate to 300–450 mg/day",
+        "notes": "FDA-approved for fibromyalgia pain.",
+        "source": "FDA"
+      },
+      {
+        "name": "Cyclobenzaprine",
+        "type": "Muscle Relaxant",
+        "dosage": "5–10 mg orally at bedtime",
+        "notes": "For sleep disturbance and muscle pain.",
+        "source": "Mayo Clinic"
+      }
+    ]
+  },
+  {
+    "disease": "Chronic Pain due to Neuropathy",
+    "category": "Chronic",
+    "common_symptoms": [
+      "burning pain",
+      "numbness",
+      "tingling"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "normal",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "burning pain": "high",
+      "numbness": "medium",
+      "tingling": "medium"
+    },
+    "possible_treatments": [
+      "anticonvulsants",
+      "pain management"
+    ],
+    "notes": "Nerve-related chronic pain",
+    "detailed_treatments": [
+      {
+        "name": "Gabapentin (Neurontin)",
+        "type": "Anticonvulsant",
+        "dosage": "300 mg at bedtime initially; titrate to 1800–3600 mg/day in divided doses",
+        "notes": "For diabetic neuropathy, post-herpetic neuralgia.",
+        "source": "AAN / Mayo Clinic"
+      },
+      {
+        "name": "Duloxetine",
+        "type": "SNRI",
+        "dosage": "60 mg orally once daily",
+        "notes": "FDA-approved for diabetic peripheral neuropathic pain.",
+        "source": "FDA / AAN"
+      },
+      {
+        "name": "Capsaicin 8% Patch (Qutenza)",
+        "type": "Topical",
+        "dosage": "Apply to affected area for 60 minutes every 3 months",
+        "notes": "For post-herpetic neuralgia.",
+        "source": "FDA"
+      }
+    ]
+  },
+  {
+    "disease": "Chronic Venous Insufficiency",
+    "category": "Chronic",
+    "common_symptoms": [
+      "leg swelling",
+      "pain",
+      "varicose veins"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "normal",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "leg swelling": "high",
+      "pain": "medium",
+      "varicose veins": "medium"
+    },
+    "possible_treatments": [
+      "compression therapy",
+      "surgery"
+    ],
+    "notes": "Poor blood return in veins",
+    "detailed_treatments": [
+      {
+        "name": "Compression Stockings",
+        "type": "Mechanical Therapy",
+        "dosage": "20–30 mmHg (mild-moderate) or 30–40 mmHg (moderate-severe), wear daily",
+        "notes": "Cornerstone of treatment. Put on before getting out of bed.",
+        "source": "AVF / Mayo Clinic"
+      },
+      {
+        "name": "Diosmin + Hesperidin (Daflon)",
+        "type": "Venotonic/Phlebotonic",
+        "dosage": "1000 mg orally once daily or 500 mg twice daily",
+        "notes": "Reduces venous symptoms and edema.",
+        "source": "Clinical evidence"
+      }
+    ]
+  },
+  {
+    "disease": "Chronic Obstructive Sleep Apnea",
+    "category": "Chronic",
+    "common_symptoms": [
+      "daytime sleepiness",
+      "loud snoring",
+      "morning headache"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "moderate",
+      "oxygen_saturation": "low during sleep"
+    },
+    "symptom_prevalence": {
+      "daytime sleepiness": "high",
+      "loud snoring": "high",
+      "morning headache": "medium"
+    },
+    "possible_treatments": [
+      "CPAP therapy",
+      "weight loss",
+      "surgery"
+    ],
+    "notes": "Recurrent upper airway obstruction during sleep",
+    "detailed_treatments": [
+      {
+        "name": "CPAP Therapy (Continuous Positive Airway Pressure)",
+        "type": "Device Therapy",
+        "dosage": "Prescribed pressure (typically 6–15 cm H2O), use every night ≥4 hours",
+        "notes": "Gold standard treatment. Reduces daytime sleepiness and cardiovascular risk.",
+        "source": "AASM / Mayo Clinic"
+      },
+      {
+        "name": "Mandibular Advancement Device (MAD)",
+        "type": "Oral Appliance",
+        "dosage": "Custom-fitted by dentist, worn during sleep",
+        "notes": "For mild-moderate OSA or CPAP intolerance.",
+        "source": "AASM"
+      }
+    ]
+  },
+  {
+    "disease": "Chronic Eczema (Atopic Dermatitis)",
+    "category": "Chronic",
+    "common_symptoms": [
+      "itching",
+      "red skin",
+      "dry patches"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "normal",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "itching": "high",
+      "red skin": "high",
+      "dry patches": "high"
+    },
+    "possible_treatments": [
+      "topical corticosteroids",
+      "moisturizers"
+    ],
+    "notes": "Chronic inflammatory skin condition",
+    "detailed_treatments": [
+      {
+        "name": "Triamcinolone 0.1% Cream",
+        "type": "Topical Corticosteroid (Medium potency)",
+        "dosage": "Apply thin layer to affected areas twice daily during flares",
+        "notes": "Avoid on face, groin, armpits. Short-term use only.",
+        "source": "AAD / Mayo Clinic"
+      },
+      {
+        "name": "Tacrolimus Ointment (Protopic)",
+        "type": "Topical Calcineurin Inhibitor",
+        "dosage": "0.1% (adults) or 0.03% (children): apply twice daily",
+        "notes": "Steroid-sparing. For sensitive skin areas.",
+        "source": "AAD"
+      },
+      {
+        "name": "Dupilumab (Dupixent)",
+        "type": "Biologic (IL-4/13 Inhibitor)",
+        "dosage": "600 mg SC (loading), then 300 mg every 2 weeks",
+        "notes": "For moderate-severe atopic dermatitis. FDA-approved 2017.",
+        "source": "AAD / FDA"
+      }
+    ]
+  },
+  {
+    "disease": "Chronic Psoriasis",
+    "category": "Chronic",
+    "common_symptoms": [
+      "red scaly plaques",
+      "itching",
+      "joint pain"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "normal",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "red scaly plaques": "high",
+      "itching": "medium",
+      "joint pain": "medium"
+    },
+    "possible_treatments": [
+      "topical therapy",
+      "biologics",
+      "phototherapy"
+    ],
+    "notes": "Immune-mediated skin disease",
+    "detailed_treatments": [
+      {
+        "name": "Betamethasone Dipropionate 0.05% + Calcipotriol",
+        "type": "Topical (Corticosteroid + Vitamin D Analog)",
+        "dosage": "Apply once daily to plaques for 4 weeks",
+        "notes": "Most effective topical for plaque psoriasis.",
+        "source": "AAD / Mayo Clinic"
+      },
+      {
+        "name": "Secukinumab (Cosentyx)",
+        "type": "Biologic (IL-17A Inhibitor)",
+        "dosage": "300 mg SC weekly for 5 doses, then 300 mg monthly",
+        "notes": "Highly effective for moderate-severe psoriasis.",
+        "source": "AAD"
+      },
+      {
+        "name": "Methotrexate",
+        "type": "Systemic DMARD",
+        "dosage": "7.5–25 mg orally or SC once weekly",
+        "notes": "For moderate-severe psoriasis or psoriatic arthritis.",
+        "source": "AAD"
+      }
+    ]
+  },
+  {
+    "disease": "Pneumonia",
+    "category": "Respiratory",
+    "common_symptoms": [
+      "cough",
+      "fever",
+      "shortness of breath"
+    ],
+    "vital_signs": {
+      "fever": "high",
+      "heart_rate": "high",
+      "oxygen_saturation": "low"
+    },
+    "symptom_prevalence": {
+      "cough": "high",
+      "fever": "high",
+      "shortness of breath": "high"
+    },
+    "possible_treatments": [
+      "antibiotics",
+      "oxygen therapy",
+      "hydration"
+    ],
+    "notes": "Infection of the lungs",
+    "detailed_treatments": [
+      {
+        "name": "Amoxicillin",
+        "type": "Antibiotic (Community-acquired, outpatient)",
+        "dosage": "1000 mg orally 3 times daily for 5 days",
+        "notes": "First-line for CAP in low-risk outpatients.",
+        "source": "IDSA / ATS"
+      },
+      {
+        "name": "Azithromycin",
+        "type": "Macrolide Antibiotic",
+        "dosage": "500 mg orally on day 1, then 250 mg once daily for 4 more days",
+        "notes": "For atypical pneumonia or penicillin allergy.",
+        "source": "IDSA"
+      },
+      {
+        "name": "Levofloxacin",
+        "type": "Respiratory Fluoroquinolone (Inpatient)",
+        "dosage": "750 mg orally or IV once daily for 5 days",
+        "notes": "For inpatients or those with comorbidities.",
+        "source": "IDSA"
+      },
+      {
+        "name": "Oxygen Supplementation",
+        "type": "Supportive",
+        "dosage": "Titrate to maintain SpO2 ≥94%",
+        "notes": "Essential for hypoxic patients.",
+        "source": "BTS"
+      }
+    ]
+  },
+  {
+    "disease": "Asthma",
+    "category": "Respiratory",
+    "common_symptoms": [
+      "wheezing",
+      "shortness of breath",
+      "cough"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "moderate",
+      "oxygen_saturation": "low during attack"
+    },
+    "symptom_prevalence": {
+      "wheezing": "high",
+      "shortness of breath": "high",
+      "cough": "medium"
+    },
+    "possible_treatments": [
+      "inhaled corticosteroids",
+      "bronchodilators"
+    ],
+    "notes": "Chronic airway inflammation",
+    "detailed_treatments": [
+      {
+        "name": "Salbutamol (Albuterol) MDI",
+        "type": "SABA – Rescue Inhaler",
+        "dosage": "2 puffs (200 mcg) every 4–6 hours as needed",
+        "notes": "For acute bronchospasm. If using >2 days/week, step up therapy.",
+        "source": "GINA 2023"
+      },
+      {
+        "name": "Budesonide Inhaler",
+        "type": "Inhaled Corticosteroid (Controller)",
+        "dosage": "200–400 mcg inhaled twice daily",
+        "notes": "First-line controller for persistent asthma.",
+        "source": "GINA 2023"
+      },
+      {
+        "name": "Montelukast",
+        "type": "Leukotriene Modifier",
+        "dosage": "10 mg orally once daily at bedtime",
+        "notes": "Add-on for mild persistent asthma.",
+        "source": "GINA"
+      }
+    ]
+  },
+  {
+    "disease": "Tuberculosis",
+    "category": "Respiratory",
+    "common_symptoms": [
+      "chronic cough",
+      "night sweats",
+      "weight loss"
+    ],
+    "vital_signs": {
+      "fever": "medium",
+      "heart_rate": "moderate",
+      "oxygen_saturation": "low"
+    },
+    "symptom_prevalence": {
+      "chronic cough": "high",
+      "night sweats": "medium",
+      "weight loss": "medium"
+    },
+    "possible_treatments": [
+      "RIPE therapy"
+    ],
+    "notes": "Bacterial infection affecting lungs",
+    "detailed_treatments": [
+      {
+        "name": "RIPE Therapy (Rifampicin + Isoniazid + Pyrazinamide + Ethambutol)",
+        "type": "Antitubercular",
+        "dosage": "Rifampicin 10 mg/kg/day + Isoniazid 5 mg/kg/day + Pyrazinamide 25 mg/kg/day + Ethambutol 15 mg/kg/day for first 2 months; then Rifampicin + Isoniazid for 4 months",
+        "notes": "Total 6-month course. Directly Observed Therapy (DOT) recommended.",
+        "source": "WHO / CDC"
+      },
+      {
+        "name": "Pyridoxine (Vitamin B6)",
+        "type": "Supplement",
+        "dosage": "25–50 mg orally once daily",
+        "notes": "To prevent isoniazid-induced peripheral neuropathy.",
+        "source": "WHO"
+      }
+    ]
+  },
+  {
+    "disease": "Bronchiectasis",
+    "category": "Respiratory",
+    "common_symptoms": [
+      "chronic cough",
+      "sputum production",
+      "recurrent infections"
+    ],
+    "vital_signs": {
+      "fever": "low to medium",
+      "heart_rate": "moderate",
+      "oxygen_saturation": "low"
+    },
+    "symptom_prevalence": {
+      "chronic cough": "high",
+      "sputum production": "high",
+      "recurrent infections": "medium"
+    },
+    "possible_treatments": [
+      "antibiotics",
+      "airway clearance therapy"
+    ],
+    "notes": "Permanent enlargement of bronchi",
+    "detailed_treatments": [
+      {
+        "name": "Hypertonic Saline (7%) Nebulization",
+        "type": "Airway Clearance",
+        "dosage": "4 mL inhaled twice daily via nebulizer",
+        "notes": "Improves mucus clearance. Use bronchodilator first.",
+        "source": "BTS"
+      },
+      {
+        "name": "Azithromycin",
+        "type": "Macrolide Antibiotic (Long-term suppressive)",
+        "dosage": "250 mg orally 3 times weekly",
+        "notes": "Reduces exacerbations in non-NTM patients.",
+        "source": "BTS / ERS"
+      },
+      {
+        "name": "Amoxicillin",
+        "type": "Antibiotic (Acute exacerbation)",
+        "dosage": "500 mg orally 3 times daily for 14 days",
+        "notes": "For acute exacerbations with increased purulent sputum.",
+        "source": "BTS"
+      }
+    ]
+  },
+  {
+    "disease": "Pulmonary Fibrosis",
+    "category": "Respiratory",
+    "common_symptoms": [
+      "shortness of breath",
+      "dry cough",
+      "fatigue"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "moderate",
+      "oxygen_saturation": "low"
+    },
+    "symptom_prevalence": {
+      "shortness of breath": "high",
+      "dry cough": "high",
+      "fatigue": "medium"
+    },
+    "possible_treatments": [
+      "antifibrotic drugs",
+      "oxygen therapy",
+      "lung transplant"
+    ],
+    "notes": "Scarring of lung tissue",
+    "detailed_treatments": [
+      {
+        "name": "Pirfenidone (Esbriet)",
+        "type": "Antifibrotic",
+        "dosage": "267 mg 3 times daily for 7 days, 534 mg 3 times daily for next 7 days, then 801 mg 3 times daily",
+        "notes": "Slows FVC decline. Take with food to reduce GI effects.",
+        "source": "ATS / Mayo Clinic"
+      },
+      {
+        "name": "Nintedanib (Ofev)",
+        "type": "Tyrosine Kinase Inhibitor (Antifibrotic)",
+        "dosage": "150 mg orally twice daily with food",
+        "notes": "Reduces disease progression. Diarrhea common.",
+        "source": "ATS / ERS"
+      },
+      {
+        "name": "Oxygen Supplementation",
+        "type": "Supportive",
+        "dosage": "Supplemental O2 to maintain SpO2 ≥90% at rest and during activity",
+        "notes": "For resting or exertional hypoxemia.",
+        "source": "ATS"
+      }
+    ]
+  },
+  {
+    "disease": "Acute Bronchitis",
+    "category": "Respiratory",
+    "common_symptoms": [
+      "cough",
+      "sore throat",
+      "mild fever"
+    ],
+    "vital_signs": {
+      "fever": "medium",
+      "heart_rate": "moderate",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "cough": "high",
+      "sore throat": "medium",
+      "mild fever": "medium"
+    },
+    "possible_treatments": [
+      "rest",
+      "hydration",
+      "bronchodilators if needed"
+    ],
+    "notes": "Short-term inflammation of bronchi",
+    "detailed_treatments": [
+      {
+        "name": "Dextromethorphan",
+        "type": "Antitussive",
+        "dosage": "15–30 mg orally every 6–8 hours as needed",
+        "notes": "For cough suppression. Avoid in productive cough.",
+        "source": "Mayo Clinic"
+      },
+      {
+        "name": "Ibuprofen",
+        "type": "NSAID",
+        "dosage": "400 mg orally every 6–8 hours with food",
+        "notes": "For fever and discomfort. Most acute bronchitis is viral; antibiotics not indicated.",
+        "source": "ACCP"
+      },
+      {
+        "name": "Salbutamol (Albuterol)",
+        "type": "Bronchodilator",
+        "dosage": "2 puffs (200 mcg) inhaled every 4–6 hours as needed",
+        "notes": "Useful if wheezing is present.",
+        "source": "ACCP / Mayo Clinic"
+      }
+    ]
+  },
+  {
+    "disease": "Cystic Fibrosis",
+    "category": "Respiratory",
+    "common_symptoms": [
+      "chronic cough",
+      "recurrent infections",
+      "poor growth"
+    ],
+    "vital_signs": {
+      "fever": "medium",
+      "heart_rate": "moderate",
+      "oxygen_saturation": "low"
+    },
+    "symptom_prevalence": {
+      "chronic cough": "high",
+      "recurrent infections": "high",
+      "poor growth": "medium"
+    },
+    "possible_treatments": [
+      "airway clearance",
+      "enzymes",
+      "antibiotics"
+    ],
+    "notes": "Genetic disorder affecting lungs and pancreas",
+    "detailed_treatments": [
+      {
+        "name": "Ivacaftor/Tezacaftor/Elexacaftor (Trikafta)",
+        "type": "CFTR Modulator",
+        "dosage": "Adults: 2 morning tablets (100 mg tezacaftor/150 mg elexacaftor) + 1 evening tablet (150 mg ivacaftor)",
+        "notes": "Highly effective for patients with at least one F508del mutation (90% of CF patients).",
+        "source": "CFF / FDA"
+      },
+      {
+        "name": "Dornase alfa (Pulmozyme)",
+        "type": "Mucolytic",
+        "dosage": "2.5 mg inhaled once daily via nebulizer",
+        "notes": "Breaks down DNA in mucus. Improves lung function.",
+        "source": "CFF"
+      },
+      {
+        "name": "Tobramycin Inhalation",
+        "type": "Inhaled Antibiotic",
+        "dosage": "300 mg inhaled twice daily for 28 days on, 28 days off",
+        "notes": "For chronic P. aeruginosa colonization.",
+        "source": "CFF"
+      }
+    ]
+  },
+  {
+    "disease": "Emphysema",
+    "category": "Respiratory",
+    "common_symptoms": [
+      "shortness of breath",
+      "chronic cough",
+      "wheezing"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "moderate",
+      "oxygen_saturation": "low"
+    },
+    "symptom_prevalence": {
+      "shortness of breath": "high",
+      "chronic cough": "medium",
+      "wheezing": "medium"
+    },
+    "possible_treatments": [
+      "bronchodilators",
+      "oxygen therapy",
+      "pulmonary rehabilitation"
+    ],
+    "notes": "Type of COPD; alveolar destruction",
+    "detailed_treatments": [
+      {
+        "name": "Tiotropium + Salmeterol (LAMA+LABA)",
+        "type": "Dual Bronchodilator",
+        "dosage": "Tiotropium 18 mcg once daily + Salmeterol 50 mcg twice daily",
+        "notes": "Combination provides superior bronchodilation.",
+        "source": "GOLD"
+      },
+      {
+        "name": "Pulmonary Rehabilitation",
+        "type": "Non-pharmacological",
+        "dosage": "20+ sessions over 6–8 weeks, then maintenance",
+        "notes": "Improves exercise capacity and quality of life.",
+        "source": "GOLD / ATS"
+      },
+      {
+        "name": "Alpha-1 Antitrypsin Augmentation",
+        "type": "Enzyme Replacement (for AATD)",
+        "dosage": "60 mg/kg IV once weekly",
+        "notes": "For emphysema due to alpha-1 antitrypsin deficiency.",
+        "source": "ATS / ERS"
+      }
+    ]
+  },
+  {
+    "disease": "Pulmonary Embolism",
+    "category": "Respiratory",
+    "common_symptoms": [
+      "sudden shortness of breath",
+      "chest pain",
+      "cough"
+    ],
+    "vital_signs": {
+      "fever": "low to medium",
+      "heart_rate": "high",
+      "oxygen_saturation": "low"
+    },
+    "symptom_prevalence": {
+      "shortness of breath": "high",
+      "chest pain": "high",
+      "cough": "medium"
+    },
+    "possible_treatments": [
+      "anticoagulants",
+      "thrombolytics"
+    ],
+    "notes": "Blood clot in lung arteries",
+    "detailed_treatments": [
+      {
+        "name": "Rivaroxaban (Xarelto)",
+        "type": "Direct Oral Anticoagulant (DOAC)",
+        "dosage": "15 mg orally twice daily with food for 21 days, then 20 mg once daily",
+        "notes": "First-line for acute PE (hemodynamically stable).",
+        "source": "ESC / AHA"
+      },
+      {
+        "name": "Heparin (Unfractionated) then Warfarin",
+        "type": "Anticoagulant Bridge",
+        "dosage": "UFH: weight-based IV infusion; Warfarin: titrate to INR 2–3",
+        "notes": "Traditional approach; use when DOAC contraindicated.",
+        "source": "AHA"
+      },
+      {
+        "name": "Alteplase (tPA)",
+        "type": "Thrombolytic",
+        "dosage": "100 mg IV over 2 hours",
+        "notes": "For massive PE with hemodynamic instability only.",
+        "source": "AHA / ESC"
+      }
+    ]
+  },
+  {
+    "disease": "Interstitial Lung Disease",
+    "category": "Respiratory",
+    "common_symptoms": [
+      "shortness of breath",
+      "dry cough",
+      "fatigue"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "moderate",
+      "oxygen_saturation": "low"
+    },
+    "symptom_prevalence": {
+      "shortness of breath": "high",
+      "dry cough": "high",
+      "fatigue": "medium"
+    },
+    "possible_treatments": [
+      "corticosteroids",
+      "antifibrotic therapy",
+      "oxygen"
+    ],
+    "notes": "Group of disorders causing lung scarring",
+    "detailed_treatments": [
+      {
+        "name": "Prednisone",
+        "type": "Systemic Corticosteroid",
+        "dosage": "0.5–1 mg/kg/day orally (max 60 mg), taper over weeks to months",
+        "notes": "For inflammatory ILDs (e.g., COP, hypersensitivity pneumonitis).",
+        "source": "ATS"
+      },
+      {
+        "name": "Azathioprine + Mycophenolate",
+        "type": "Immunosuppressant",
+        "dosage": "Azathioprine: 1–3 mg/kg/day; Mycophenolate: 1.5–3 g/day",
+        "notes": "Steroid-sparing agents for autoimmune ILDs.",
+        "source": "ATS"
+      },
+      {
+        "name": "Nintedanib",
+        "type": "Antifibrotic",
+        "dosage": "150 mg orally twice daily",
+        "notes": "For progressive fibrosing ILDs beyond IPF.",
+        "source": "ATS / FDA"
+      }
+    ]
+  },
+  {
+    "disease": "Acute Respiratory Distress Syndrome (ARDS)",
+    "category": "Respiratory",
+    "common_symptoms": [
+      "severe shortness of breath",
+      "hypoxemia",
+      "rapid breathing"
+    ],
+    "vital_signs": {
+      "fever": "medium",
+      "heart_rate": "high",
+      "oxygen_saturation": "very low"
+    },
+    "symptom_prevalence": {
+      "severe shortness of breath": "high",
+      "hypoxemia": "high",
+      "rapid breathing": "high"
+    },
+    "possible_treatments": [
+      "mechanical ventilation",
+      "treat underlying cause"
+    ],
+    "notes": "Life-threatening lung failure",
+    "detailed_treatments": [
+      {
+        "name": "Lung-Protective Mechanical Ventilation",
+        "type": "Ventilator Strategy",
+        "dosage": "Tidal volume 6 mL/kg ideal body weight; Plateau pressure ≤30 cm H2O",
+        "notes": "ARDSNet protocol. Reduces mortality.",
+        "source": "NHLBI ARDSNet"
+      },
+      {
+        "name": "Prone Positioning",
+        "type": "Positional Therapy",
+        "dosage": "≥16 hours per day of prone positioning",
+        "notes": "Improves oxygenation and reduces mortality in severe ARDS (PaO2/FiO2 <150).",
+        "source": "PROSEVA Trial / ESC"
+      },
+      {
+        "name": "Dexamethasone",
+        "type": "Corticosteroid",
+        "dosage": "6 mg IV or orally once daily for 10 days",
+        "notes": "Reduces duration of mechanical ventilation in moderate-severe ARDS.",
+        "source": "DEXA-ARDS Trial"
+      }
+    ]
+  },
+  {
+    "disease": "Respiratory Syncytial Virus Infection",
+    "category": "Respiratory",
+    "common_symptoms": [
+      "cough",
+      "runny nose",
+      "fever"
+    ],
+    "vital_signs": {
+      "fever": "medium",
+      "heart_rate": "moderate",
+      "oxygen_saturation": "low in infants"
+    },
+    "symptom_prevalence": {
+      "cough": "high",
+      "runny nose": "high",
+      "fever": "medium"
+    },
+    "possible_treatments": [
+      "supportive care",
+      "oxygen if needed"
+    ],
+    "notes": "Common in infants and young children",
+    "detailed_treatments": [
+      {
+        "name": "Palivizumab (Synagis)",
+        "type": "Monoclonal Antibody (Prophylaxis)",
+        "dosage": "15 mg/kg IM monthly during RSV season (5 doses)",
+        "notes": "Prophylaxis for high-risk infants. Not treatment.",
+        "source": "AAP"
+      },
+      {
+        "name": "Oxygen Supplementation + Nasopharyngeal Suction",
+        "type": "Supportive Care",
+        "dosage": "Titrate O2 to maintain SpO2 ≥90%; suction as needed",
+        "notes": "Mainstay of treatment for RSV bronchiolitis.",
+        "source": "AAP / Mayo Clinic"
+      },
+      {
+        "name": "Hypertonic Saline (3%) Nebulization",
+        "type": "Mucolytic",
+        "dosage": "4 mL inhaled every 4–6 hours",
+        "notes": "May reduce hospital stay in bronchiolitis.",
+        "source": "AAP"
+      }
+    ]
+  },
+  {
+    "disease": "Whooping Cough (Pertussis)",
+    "category": "Respiratory",
+    "common_symptoms": [
+      "severe coughing",
+      "whooping sound",
+      "vomiting after cough"
+    ],
+    "vital_signs": {
+      "fever": "medium",
+      "heart_rate": "moderate",
+      "oxygen_saturation": "low during coughing spells"
+    },
+    "symptom_prevalence": {
+      "severe coughing": "high",
+      "whooping sound": "high",
+      "vomiting": "medium"
+    },
+    "possible_treatments": [
+      "antibiotics",
+      "supportive care"
+    ],
+    "notes": "Bacterial infection; highly contagious",
+    "detailed_treatments": [
+      {
+        "name": "Azithromycin",
+        "type": "Macrolide Antibiotic (First-line)",
+        "dosage": "Adults: 500 mg on day 1, then 250 mg for 4 days; Infants <6 months: 10 mg/kg/day for 5 days",
+        "notes": "Most effective when started in catarrhal phase.",
+        "source": "CDC / WHO"
+      },
+      {
+        "name": "Clarithromycin",
+        "type": "Macrolide Antibiotic (Alternative)",
+        "dosage": "500 mg orally twice daily for 7 days",
+        "notes": "Alternative to azithromycin.",
+        "source": "CDC"
+      }
+    ]
+  },
+  {
+    "disease": "Legionnaires' Disease",
+    "category": "Respiratory",
+    "common_symptoms": [
+      "cough",
+      "fever",
+      "muscle aches"
+    ],
+    "vital_signs": {
+      "fever": "high",
+      "heart_rate": "high",
+      "oxygen_saturation": "low"
+    },
+    "symptom_prevalence": {
+      "cough": "high",
+      "fever": "high",
+      "muscle aches": "medium"
+    },
+    "possible_treatments": [
+      "antibiotics",
+      "oxygen therapy"
+    ],
+    "notes": "Severe pneumonia caused by Legionella bacteria",
+    "detailed_treatments": [
+      {
+        "name": "Azithromycin",
+        "type": "Macrolide Antibiotic (First-line)",
+        "dosage": "500 mg IV or orally once daily for 5–10 days",
+        "notes": "Drug of choice for Legionella pneumonia.",
+        "source": "IDSA"
+      },
+      {
+        "name": "Levofloxacin",
+        "type": "Fluoroquinolone",
+        "dosage": "750 mg IV or orally once daily for 7–10 days",
+        "notes": "Alternative first-line, especially for severe disease.",
+        "source": "IDSA"
+      }
+    ]
+  },
+  {
+    "disease": "Influenza",
+    "category": "Respiratory",
+    "common_symptoms": [
+      "fever",
+      "cough",
+      "body aches"
+    ],
+    "vital_signs": {
+      "fever": "high",
+      "heart_rate": "moderate",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "fever": "high",
+      "cough": "high",
+      "body aches": "high"
+    },
+    "possible_treatments": [
+      "antivirals",
+      "rest",
+      "hydration"
+    ],
+    "notes": "Seasonal viral infection",
+    "detailed_treatments": [
+      {
+        "name": "Oseltamivir (Tamiflu)",
+        "type": "Antiviral",
+        "dosage": "75 mg orally twice daily for 5 days",
+        "notes": "Start within 48 hours of symptom onset. Reduce dose in renal impairment.",
+        "source": "CDC / Mayo Clinic"
+      },
+      {
+        "name": "Zanamivir (Relenza)",
+        "type": "Antiviral",
+        "dosage": "10 mg (2 inhalations) twice daily for 5 days",
+        "notes": "Not recommended in patients with respiratory disease.",
+        "source": "CDC"
+      },
+      {
+        "name": "Acetaminophen (Paracetamol)",
+        "type": "Antipyretic/Analgesic",
+        "dosage": "500–1000 mg every 4–6 hours as needed, max 4000 mg/day",
+        "notes": "For fever and body aches. Avoid aspirin in children (Reye's syndrome risk).",
+        "source": "Mayo Clinic"
+      },
+      {
+        "name": "Oral Hydration",
+        "type": "Supportive Care",
+        "dosage": "2–3 liters of fluids per day",
+        "notes": "Water, electrolyte solutions, broths recommended.",
+        "source": "WHO"
+      }
+    ]
+  },
+  {
+    "disease": "H1N1 Influenza",
+    "category": "Respiratory",
+    "common_symptoms": [
+      "fever",
+      "cough",
+      "fatigue"
+    ],
+    "vital_signs": {
+      "fever": "high",
+      "heart_rate": "high",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "fever": "high",
+      "cough": "high",
+      "fatigue": "high"
+    },
+    "possible_treatments": [
+      "antivirals",
+      "rest",
+      "hydration"
+    ],
+    "notes": "Swine flu variant",
+    "detailed_treatments": [
+      {
+        "name": "Oseltamivir (Tamiflu)",
+        "type": "Antiviral",
+        "dosage": "75 mg orally twice daily for 5 days",
+        "notes": "Start within 48 hours of symptoms. Double-dose for severe cases (150 mg twice daily).",
+        "source": "CDC / WHO"
+      },
+      {
+        "name": "Zanamivir",
+        "type": "Antiviral",
+        "dosage": "10 mg (2 inhalations) twice daily for 5 days",
+        "notes": "Alternative to oseltamivir.",
+        "source": "CDC"
+      }
+    ]
+  },
+  {
+    "disease": "MERS-CoV Infection",
+    "category": "Respiratory",
+    "common_symptoms": [
+      "fever",
+      "cough",
+      "shortness of breath"
+    ],
+    "vital_signs": {
+      "fever": "high",
+      "heart_rate": "high",
+      "oxygen_saturation": "low"
+    },
+    "symptom_prevalence": {
+      "fever": "high",
+      "cough": "high",
+      "shortness of breath": "high"
+    },
+    "possible_treatments": [
+      "supportive care",
+      "oxygen therapy"
+    ],
+    "notes": "Middle East Respiratory Syndrome coronavirus infection",
+    "detailed_treatments": [
+      {
+        "name": "Ribavirin + Interferon alfa-2b",
+        "type": "Antiviral Combination",
+        "dosage": "Ribavirin: 2000 mg loading then 1000–1200 mg/day; Interferon: 5–9 million IU subcutaneous 3x/week",
+        "notes": "Used in severe cases; evidence limited.",
+        "source": "WHO"
+      },
+      {
+        "name": "Supportive Oxygen Therapy",
+        "type": "Supportive Care",
+        "dosage": "Maintain SpO2 >90%; mechanical ventilation if needed",
+        "notes": "Cornerstone of MERS management.",
+        "source": "WHO"
+      }
+    ]
+  },
+  {
+    "disease": "SARS",
+    "category": "Respiratory",
+    "common_symptoms": [
+      "fever",
+      "cough",
+      "shortness of breath"
+    ],
+    "vital_signs": {
+      "fever": "high",
+      "heart_rate": "high",
+      "oxygen_saturation": "low"
+    },
+    "symptom_prevalence": {
+      "fever": "high",
+      "cough": "high",
+      "shortness of breath": "high"
+    },
+    "possible_treatments": [
+      "supportive care",
+      "mechanical ventilation if severe"
+    ],
+    "notes": "Severe Acute Respiratory Syndrome coronavirus infection",
+    "detailed_treatments": [
+      {
+        "name": "Ribavirin",
+        "type": "Antiviral",
+        "dosage": "1200 mg IV or orally every 8 hours for 10–14 days",
+        "notes": "Used historically during 2003 outbreak; evidence mixed.",
+        "source": "WHO"
+      },
+      {
+        "name": "Methylprednisolone",
+        "type": "Corticosteroid",
+        "dosage": "1–2 mg/kg/day IV for severe cases",
+        "notes": "For severe respiratory failure; evidence limited.",
+        "source": "WHO"
+      }
+    ]
+  },
+  {
+    "disease": "Avian Influenza (H5N1)",
+    "category": "Respiratory",
+    "common_symptoms": [
+      "fever",
+      "cough",
+      "shortness of breath"
+    ],
+    "vital_signs": {
+      "fever": "high",
+      "heart_rate": "high",
+      "oxygen_saturation": "low"
+    },
+    "symptom_prevalence": {
+      "fever": "high",
+      "cough": "high",
+      "shortness of breath": "high"
+    },
+    "possible_treatments": [
+      "antivirals",
+      "supportive care"
+    ],
+    "notes": "Bird flu; high mortality rate in humans",
+    "detailed_treatments": [
+      {
+        "name": "Oseltamivir (Tamiflu)",
+        "type": "Antiviral",
+        "dosage": "150 mg orally twice daily for 10 days (double standard dose for severe disease)",
+        "notes": "Started as early as possible. WHO recommends empiric treatment.",
+        "source": "WHO"
+      },
+      {
+        "name": "Zanamivir",
+        "type": "Antiviral",
+        "dosage": "10 mg (2 inhalations) twice daily for 7–10 days",
+        "notes": "If oseltamivir resistance suspected.",
+        "source": "WHO"
+      }
+    ]
+  },
+  {
+    "disease": "Heart Failure",
+    "category": "Cardiovascular",
+    "common_symptoms": [
+      "shortness of breath",
+      "fatigue",
+      "swelling"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "high",
+      "oxygen_saturation": "low"
+    },
+    "symptom_prevalence": {
+      "shortness of breath": "high",
+      "fatigue": "high",
+      "swelling": "medium"
+    },
+    "possible_treatments": [
+      "ACE inhibitors",
+      "beta blockers",
+      "diuretics"
+    ],
+    "notes": "Heart cannot pump effectively",
+    "detailed_treatments": [
+      {
+        "name": "Furosemide (Lasix)",
+        "type": "Loop Diuretic",
+        "dosage": "20–80 mg orally or IV once or twice daily (titrate to response)",
+        "notes": "For volume overload and edema. Monitor electrolytes and renal function.",
+        "source": "ACC/AHA Guidelines"
+      },
+      {
+        "name": "Lisinopril or Enalapril",
+        "type": "ACE Inhibitor",
+        "dosage": "Lisinopril: 5–40 mg once daily; Enalapril: 2.5–10 mg twice daily",
+        "notes": "Reduces mortality. Contraindicated in bilateral renal artery stenosis.",
+        "source": "ACC/AHA / Mayo Clinic"
+      },
+      {
+        "name": "Carvedilol or Metoprolol Succinate",
+        "type": "Beta-Blocker",
+        "dosage": "Carvedilol: 3.125–25 mg twice daily; Metoprolol Succinate: 12.5–200 mg once daily",
+        "notes": "Start low, titrate slowly. Reduces mortality in HFrEF.",
+        "source": "ACC/AHA"
+      },
+      {
+        "name": "Sacubitril/Valsartan (Entresto)",
+        "type": "ARNI",
+        "dosage": "49/51 mg to 97/103 mg orally twice daily",
+        "notes": "Superior to ACE inhibitor in HFrEF. Do not combine with ACE inhibitor.",
+        "source": "ACC/AHA 2022"
+      },
+      {
+        "name": "Empagliflozin (Jardiance)",
+        "type": "SGLT2 Inhibitor",
+        "dosage": "10 mg orally once daily",
+        "notes": "Reduces HF hospitalizations regardless of diabetes status.",
+        "source": "ACC/AHA 2022"
+      }
+    ]
+  },
+  {
+    "disease": "Myocardial Infarction",
+    "category": "Cardiovascular",
+    "common_symptoms": [
+      "chest pain",
+      "shortness of breath",
+      "nausea"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "high",
+      "oxygen_saturation": "low"
+    },
+    "symptom_prevalence": {
+      "chest pain": "high",
+      "shortness of breath": "high",
+      "nausea": "medium"
+    },
+    "possible_treatments": [
+      "PCI",
+      "thrombolytics",
+      "antiplatelet therapy"
+    ],
+    "notes": "Heart attack due to blocked coronary arteries",
+    "detailed_treatments": [
+      {
+        "name": "Aspirin",
+        "type": "Antiplatelet",
+        "dosage": "325 mg chewed immediately (loading dose), then 75–100 mg daily (maintenance)",
+        "notes": "Give immediately upon MI suspicion.",
+        "source": "ACC/AHA / Mayo Clinic"
+      },
+      {
+        "name": "Ticagrelor",
+        "type": "Antiplatelet (P2Y12 inhibitor)",
+        "dosage": "180 mg loading dose, then 90 mg twice daily for 12 months",
+        "notes": "Preferred P2Y12 inhibitor for STEMI/NSTEMI.",
+        "source": "ACC/AHA"
+      },
+      {
+        "name": "Heparin (Unfractionated)",
+        "type": "Anticoagulant",
+        "dosage": "60 units/kg IV bolus (max 4000 units), then 12 units/kg/hr infusion",
+        "notes": "For acute STEMI during PCI.",
+        "source": "ACC/AHA"
+      },
+      {
+        "name": "Morphine Sulfate",
+        "type": "Analgesic/Vasodilator",
+        "dosage": "2–4 mg IV, may repeat every 5–10 minutes",
+        "notes": "For chest pain relief. Use cautiously.",
+        "source": "ACC/AHA"
+      },
+      {
+        "name": "Atorvastatin",
+        "type": "Statin",
+        "dosage": "80 mg orally once daily",
+        "notes": "High-intensity statin therapy post-MI.",
+        "source": "ACC/AHA"
+      }
+    ]
+  },
+  {
+    "disease": "Hypertension",
+    "category": "Cardiovascular",
+    "common_symptoms": [
+      "often asymptomatic",
+      "headache",
+      "dizziness"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "normal",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "headache": "medium",
+      "dizziness": "medium"
+    },
+    "possible_treatments": [
+      "ACE inhibitors",
+      "diuretics",
+      "lifestyle changes"
+    ],
+    "notes": "High blood pressure; risk factor for cardiovascular events",
+    "detailed_treatments": [
+      {
+        "name": "Amlodipine",
+        "type": "Calcium Channel Blocker",
+        "dosage": "5–10 mg orally once daily",
+        "notes": "First-line agent. Can be combined with ACE inhibitor.",
+        "source": "JNC 8 / Mayo Clinic"
+      },
+      {
+        "name": "Lisinopril",
+        "type": "ACE Inhibitor",
+        "dosage": "10–40 mg orally once daily",
+        "notes": "First-line especially in diabetic patients or with CKD.",
+        "source": "Mayo Clinic / JNC 8"
+      },
+      {
+        "name": "Hydrochlorothiazide (HCTZ)",
+        "type": "Thiazide Diuretic",
+        "dosage": "12.5–25 mg orally once daily",
+        "notes": "First-line. Monitor electrolytes.",
+        "source": "JNC 8"
+      },
+      {
+        "name": "Metoprolol Succinate",
+        "type": "Beta-Blocker",
+        "dosage": "25–200 mg orally once daily",
+        "notes": "Preferred if concomitant heart failure or angina.",
+        "source": "Mayo Clinic"
+      }
+    ]
+  },
+  {
+    "disease": "Atrial Fibrillation",
+    "category": "Cardiovascular",
+    "common_symptoms": [
+      "palpitations",
+      "fatigue",
+      "shortness of breath"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "high",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "palpitations": "high",
+      "fatigue": "medium",
+      "shortness of breath": "medium"
+    },
+    "possible_treatments": [
+      "anticoagulants",
+      "rate/rhythm control"
+    ],
+    "notes": "Irregular heart rhythm increasing stroke risk",
+    "detailed_treatments": [
+      {
+        "name": "Apixaban (Eliquis)",
+        "type": "Anticoagulant (Direct Oral Anticoagulant)",
+        "dosage": "5 mg orally twice daily (2.5 mg if ≥2 of: age ≥80, weight ≤60 kg, creatinine ≥1.5 mg/dL)",
+        "notes": "For stroke prevention. No routine INR monitoring needed.",
+        "source": "ACC/AHA 2023"
+      },
+      {
+        "name": "Metoprolol Succinate",
+        "type": "Beta-Blocker (Rate Control)",
+        "dosage": "25–200 mg orally once daily",
+        "notes": "Target resting heart rate < 80 bpm.",
+        "source": "ACC/AHA"
+      },
+      {
+        "name": "Digoxin",
+        "type": "Cardiac Glycoside",
+        "dosage": "0.125–0.25 mg orally once daily",
+        "notes": "For rate control, especially in heart failure. Monitor levels.",
+        "source": "Mayo Clinic"
+      }
+    ]
+  },
+  {
+    "disease": "Coronary Artery Disease",
+    "category": "Cardiovascular",
+    "common_symptoms": [
+      "chest pain",
+      "shortness of breath",
+      "fatigue"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "normal",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "chest pain": "high",
+      "shortness of breath": "medium",
+      "fatigue": "medium"
+    },
+    "possible_treatments": [
+      "PCI",
+      "CABG",
+      "medications"
+    ],
+    "notes": "Narrowing of coronary arteries",
+    "detailed_treatments": [
+      {
+        "name": "Atorvastatin",
+        "type": "Statin (Lipid-Lowering)",
+        "dosage": "40–80 mg orally once daily",
+        "notes": "High-intensity statin therapy for all CAD patients.",
+        "source": "ACC/AHA"
+      },
+      {
+        "name": "Aspirin",
+        "type": "Antiplatelet",
+        "dosage": "75–100 mg orally once daily",
+        "notes": "Long-term antiplatelet therapy for secondary prevention.",
+        "source": "ACC/AHA"
+      },
+      {
+        "name": "Isosorbide Mononitrate",
+        "type": "Nitrate",
+        "dosage": "30–120 mg orally once daily",
+        "notes": "For angina prophylaxis.",
+        "source": "Mayo Clinic"
+      },
+      {
+        "name": "Metoprolol Succinate",
+        "type": "Beta-Blocker",
+        "dosage": "25–200 mg orally once daily",
+        "notes": "Reduces myocardial oxygen demand.",
+        "source": "ACC/AHA"
+      }
+    ]
+  },
+  {
+    "disease": "Stroke",
+    "category": "Cardiovascular",
+    "common_symptoms": [
+      "sudden numbness",
+      "weakness",
+      "speech difficulty"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "moderate",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "sudden numbness": "high",
+      "weakness": "high",
+      "speech difficulty": "medium"
+    },
+    "possible_treatments": [
+      "thrombolysis",
+      "mechanical thrombectomy",
+      "rehabilitation"
+    ],
+    "notes": "Cerebral ischemia or hemorrhage",
+    "detailed_treatments": [
+      {
+        "name": "Alteplase (tPA) IV Thrombolysis",
+        "type": "Thrombolytic",
+        "dosage": "0.9 mg/kg IV (max 90 mg); 10% as bolus, remainder over 60 minutes",
+        "notes": "For ischemic stroke within 3–4.5 hours of onset.",
+        "source": "AHA/ASA"
+      },
+      {
+        "name": "Aspirin",
+        "type": "Antiplatelet",
+        "dosage": "325 mg orally within 24–48 hours of ischemic stroke onset",
+        "notes": "Do not give within 24 hours of tPA. Long-term 75–100 mg/day.",
+        "source": "AHA/ASA"
+      },
+      {
+        "name": "Atorvastatin 80 mg",
+        "type": "Statin",
+        "dosage": "80 mg orally once daily",
+        "notes": "High-intensity statin for secondary prevention post-stroke.",
+        "source": "AHA/ASA"
+      }
+    ]
+  },
+  {
+    "disease": "Peripheral Artery Disease",
+    "category": "Cardiovascular",
+    "common_symptoms": [
+      "leg pain",
+      "cramping",
+      "numbness"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "normal",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "leg pain": "high",
+      "cramping": "medium",
+      "numbness": "medium"
+    },
+    "possible_treatments": [
+      "exercise therapy",
+      "antiplatelets",
+      "surgery"
+    ],
+    "notes": "Atherosclerosis of peripheral arteries",
+    "detailed_treatments": [
+      {
+        "name": "Aspirin",
+        "type": "Antiplatelet",
+        "dosage": "75–100 mg orally once daily",
+        "notes": "Reduces cardiovascular events.",
+        "source": "ACC/AHA"
+      },
+      {
+        "name": "Clopidogrel",
+        "type": "Antiplatelet",
+        "dosage": "75 mg orally once daily",
+        "notes": "Alternative or addition to aspirin for PAD.",
+        "source": "ACC/AHA"
+      },
+      {
+        "name": "Cilostazol",
+        "type": "Phosphodiesterase Inhibitor",
+        "dosage": "100 mg orally twice daily",
+        "notes": "Improves walking distance. Contraindicated in heart failure.",
+        "source": "ACC/AHA"
+      },
+      {
+        "name": "Atorvastatin",
+        "type": "Statin",
+        "dosage": "40–80 mg orally once daily",
+        "notes": "Cardiovascular risk reduction.",
+        "source": "ACC/AHA"
+      }
+    ]
+  },
+  {
+    "disease": "Valvular Heart Disease",
+    "category": "Cardiovascular",
+    "common_symptoms": [
+      "shortness of breath",
+      "chest pain",
+      "fatigue"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "moderate",
+      "oxygen_saturation": "low"
+    },
+    "symptom_prevalence": {
+      "shortness of breath": "high",
+      "chest pain": "medium",
+      "fatigue": "medium"
+    },
+    "possible_treatments": [
+      "valve repair/replacement",
+      "medications"
+    ],
+    "notes": "Abnormal heart valve function",
+    "detailed_treatments": [
+      {
+        "name": "Furosemide",
+        "type": "Diuretic (Symptomatic relief)",
+        "dosage": "20–80 mg orally once daily",
+        "notes": "For pulmonary congestion symptoms.",
+        "source": "ACC/AHA"
+      },
+      {
+        "name": "Warfarin",
+        "type": "Anticoagulant",
+        "dosage": "Individualized to achieve INR 2.5–3.5 (mechanical valves) or 2–3 (other indications)",
+        "notes": "For patients with mechanical heart valves or atrial fibrillation.",
+        "source": "ACC/AHA"
+      }
+    ]
+  },
+  {
+    "disease": "Endocarditis",
+    "category": "Cardiovascular",
+    "common_symptoms": [
+      "fever",
+      "heart murmur",
+      "fatigue"
+    ],
+    "vital_signs": {
+      "fever": "high",
+      "heart_rate": "high",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "fever": "high",
+      "heart murmur": "medium",
+      "fatigue": "medium"
+    },
+    "possible_treatments": [
+      "IV antibiotics",
+      "surgery if severe"
+    ],
+    "notes": "Infection of heart valves",
+    "detailed_treatments": [
+      {
+        "name": "Nafcillin or Oxacillin",
+        "type": "Antibiotic (MSSA Endocarditis)",
+        "dosage": "12 g/day IV in 4–6 divided doses for 6 weeks",
+        "notes": "For MSSA native valve endocarditis.",
+        "source": "AHA / ESC"
+      },
+      {
+        "name": "Vancomycin",
+        "type": "Antibiotic (MRSA/Penicillin Allergy)",
+        "dosage": "30–45 mg/kg/day IV in 2–3 divided doses (target AUC/MIC 400–600)",
+        "notes": "For MRSA endocarditis or penicillin allergy.",
+        "source": "AHA"
+      },
+      {
+        "name": "Gentamicin",
+        "type": "Aminoglycoside (Synergy)",
+        "dosage": "1 mg/kg IV every 8 hours (adjust for renal function)",
+        "notes": "Added for streptococcal or enterococcal endocarditis synergy.",
+        "source": "AHA"
+      }
+    ]
+  },
+  {
+    "disease": "Pericarditis",
+    "category": "Cardiovascular",
+    "common_symptoms": [
+      "chest pain",
+      "fever",
+      "shortness of breath"
+    ],
+    "vital_signs": {
+      "fever": "medium",
+      "heart_rate": "high",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "chest pain": "high",
+      "fever": "medium",
+      "shortness of breath": "medium"
+    },
+    "possible_treatments": [
+      "NSAIDs",
+      "corticosteroids"
+    ],
+    "notes": "Inflammation of pericardium",
+    "detailed_treatments": [
+      {
+        "name": "Aspirin",
+        "type": "NSAID (First-line)",
+        "dosage": "750–1000 mg orally every 8 hours for 2 weeks, then taper",
+        "notes": "First-line for acute pericarditis. Add gastroprotection.",
+        "source": "ESC 2015"
+      },
+      {
+        "name": "Ibuprofen",
+        "type": "NSAID",
+        "dosage": "600 mg orally every 8 hours for 2 weeks, then taper",
+        "notes": "Alternative to aspirin. Preferred in post-MI pericarditis.",
+        "source": "ESC"
+      },
+      {
+        "name": "Colchicine",
+        "type": "Anti-inflammatory (Adjunct)",
+        "dosage": "0.5 mg twice daily (≥70 kg) or 0.5 mg once daily (<70 kg) for 3 months",
+        "notes": "Reduces recurrence risk by 50%. Add to NSAID therapy.",
+        "source": "ESC / COPE Trial"
+      }
+    ]
+  },
+  {
+    "disease": "Rheumatic Heart Disease",
+    "category": "Cardiovascular",
+    "common_symptoms": [
+      "shortness of breath",
+      "fatigue",
+      "palpitations"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "moderate",
+      "oxygen_saturation": "low"
+    },
+    "symptom_prevalence": {
+      "shortness of breath": "high",
+      "fatigue": "medium",
+      "palpitations": "medium"
+    },
+    "possible_treatments": [
+      "antibiotics",
+      "valve repair"
+    ],
+    "notes": "Complication of rheumatic fever",
+    "detailed_treatments": [
+      {
+        "name": "Benzathine Penicillin G",
+        "type": "Secondary Prophylaxis Antibiotic",
+        "dosage": "1.2 million units IM every 3–4 weeks",
+        "notes": "Long-term prophylaxis to prevent recurrent streptococcal infections.",
+        "source": "WHO / AHA"
+      },
+      {
+        "name": "Furosemide",
+        "type": "Diuretic",
+        "dosage": "20–80 mg orally once daily",
+        "notes": "For heart failure symptoms from valvular damage.",
+        "source": "Mayo Clinic"
+      }
+    ]
+  },
+  {
+    "disease": "Infective Endocarditis",
+    "category": "Cardiovascular",
+    "common_symptoms": [
+      "fever",
+      "heart murmur",
+      "fatigue"
+    ],
+    "vital_signs": {
+      "fever": "high",
+      "heart_rate": "high",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "fever": "high",
+      "heart murmur": "medium",
+      "fatigue": "medium"
+    },
+    "possible_treatments": [
+      "IV antibiotics",
+      "surgery"
+    ],
+    "notes": "Bacterial infection of heart lining",
+    "detailed_treatments": [
+      {
+        "name": "Vancomycin + Gentamicin",
+        "type": "Antibiotic Combination",
+        "dosage": "Vancomycin: 30 mg/kg/day IV divided; Gentamicin: 1 mg/kg IV every 8 hours",
+        "notes": "Empiric therapy pending culture results.",
+        "source": "AHA / ESC"
+      },
+      {
+        "name": "Penicillin G + Gentamicin",
+        "type": "Antibiotic Combination (Streptococcal)",
+        "dosage": "Penicillin G: 18–24 million units/day IV divided every 4h for 4–6 weeks",
+        "notes": "For viridans streptococcal endocarditis.",
+        "source": "AHA"
+      }
+    ]
+  },
+  {
+    "disease": "Chagas Disease",
+    "category": "Cardiovascular",
+    "common_symptoms": [
+      "fatigue",
+      "palpitations",
+      "swelling"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "high",
+      "oxygen_saturation": "low"
+    },
+    "symptom_prevalence": {
+      "fatigue": "high",
+      "palpitations": "medium",
+      "swelling": "medium"
+    },
+    "possible_treatments": [
+      "antiparasitic treatment",
+      "heart management"
+    ],
+    "notes": "Parasitic infection affecting heart",
+    "detailed_treatments": [
+      {
+        "name": "Benznidazole",
+        "type": "Antiparasitic",
+        "dosage": "5–7 mg/kg/day orally in 2 divided doses for 60 days",
+        "notes": "First-line antiparasitic. Most effective in acute phase.",
+        "source": "WHO / PAHO"
+      },
+      {
+        "name": "Nifurtimox",
+        "type": "Antiparasitic (Alternative)",
+        "dosage": "8–10 mg/kg/day orally in 3–4 divided doses for 60–90 days",
+        "notes": "Alternative when benznidazole is contraindicated or unavailable.",
+        "source": "WHO"
+      }
+    ]
+  },
+  {
+    "disease": "Rheumatic Fever",
+    "category": "Cardiovascular",
+    "common_symptoms": [
+      "fever",
+      "joint pain",
+      "rash"
+    ],
+    "vital_signs": {
+      "fever": "high",
+      "heart_rate": "moderate",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "fever": "high",
+      "joint pain": "medium",
+      "rash": "medium"
+    },
+    "possible_treatments": [
+      "antibiotics",
+      "anti-inflammatories"
+    ],
+    "notes": "Post-streptococcal autoimmune disease affecting heart",
+    "detailed_treatments": [
+      {
+        "name": "Benzathine Penicillin G",
+        "type": "Antibiotic (Primary treatment)",
+        "dosage": "1.2 million units IM single dose (children <27 kg: 600,000 units)",
+        "notes": "Eradicates Group A Streptococcus. Start immediately.",
+        "source": "AHA / WHO"
+      },
+      {
+        "name": "Aspirin",
+        "type": "Anti-inflammatory",
+        "dosage": "80–100 mg/kg/day orally in divided doses for 2–4 weeks, taper",
+        "notes": "For arthritis and fever. Avoid in children with viral symptoms (Reye's).",
+        "source": "AHA"
+      },
+      {
+        "name": "Prednisone",
+        "type": "Corticosteroid",
+        "dosage": "1–2 mg/kg/day (max 60 mg) for 2–4 weeks, taper",
+        "notes": "For severe carditis.",
+        "source": "AHA"
+      }
+    ]
+  },
+  {
+    "disease": "Sepsis",
+    "category": "Infectious",
+    "common_symptoms": [
+      "fever",
+      "rapid heart rate",
+      "low blood pressure"
+    ],
+    "vital_signs": {
+      "fever": "high",
+      "heart_rate": "high",
+      "oxygen_saturation": "low"
+    },
+    "symptom_prevalence": {
+      "fever": "high",
+      "rapid heart rate": "high",
+      "low blood pressure": "high"
+    },
+    "possible_treatments": [
+      "IV antibiotics",
+      "fluids",
+      "supportive care"
+    ],
+    "notes": "Life-threatening response to infection",
+    "detailed_treatments": [
+      {
+        "name": "Broad-spectrum Antibiotics (e.g., Piperacillin-Tazobactam)",
+        "type": "Antibiotic (Empiric)",
+        "dosage": "Piperacillin-Tazobactam: 4.5 g IV every 6–8 hours (infuse over 4 hours)",
+        "notes": "Start within 1 hour of sepsis recognition. De-escalate based on cultures.",
+        "source": "Surviving Sepsis Campaign 2021"
+      },
+      {
+        "name": "Crystalloid IV Fluids (Normal Saline or Lactated Ringer's)",
+        "type": "Fluid Resuscitation",
+        "dosage": "30 mL/kg IV bolus within first 3 hours",
+        "notes": "Target MAP ≥65 mmHg. Reassess after each bolus.",
+        "source": "Surviving Sepsis Campaign"
+      },
+      {
+        "name": "Norepinephrine",
+        "type": "Vasopressor",
+        "dosage": "0.01–3 mcg/kg/min IV, titrate to MAP ≥65 mmHg",
+        "notes": "First-choice vasopressor for septic shock.",
+        "source": "Surviving Sepsis Campaign"
+      },
+      {
+        "name": "Hydrocortisone",
+        "type": "Corticosteroid (Refractory shock)",
+        "dosage": "200 mg/day IV as continuous infusion or 50 mg every 6 hours",
+        "notes": "For septic shock not responding to fluids and vasopressors.",
+        "source": "Surviving Sepsis Campaign"
+      }
+    ]
+  },
+  {
+    "disease": "HIV/AIDS",
+    "category": "Infectious",
+    "common_symptoms": [
+      "fatigue",
+      "weight loss",
+      "recurrent infections"
+    ],
+    "vital_signs": {
+      "fever": "low to medium",
+      "heart_rate": "normal",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "fatigue": "high",
+      "weight loss": "medium",
+      "recurrent infections": "high"
+    },
+    "possible_treatments": [
+      "antiretroviral therapy"
+    ],
+    "notes": "Viral infection destroying immune cells",
+    "detailed_treatments": [
+      {
+        "name": "Tenofovir/Emtricitabine/Dolutegravir (TLD)",
+        "type": "Antiretroviral (first-line ART)",
+        "dosage": "1 tablet (Tenofovir 300 mg + Emtricitabine 200 mg + Dolutegravir 50 mg) orally once daily",
+        "notes": "WHO-recommended first-line regimen. Take with or without food.",
+        "source": "WHO 2023 Guidelines"
+      },
+      {
+        "name": "Bictegravir/Tenofovir/Emtricitabine (Biktarvy)",
+        "type": "Antiretroviral",
+        "dosage": "1 tablet orally once daily",
+        "notes": "Alternative first-line regimen with high barrier to resistance.",
+        "source": "DHHS / Mayo Clinic"
+      },
+      {
+        "name": "Trimethoprim-Sulfamethoxazole (TMP-SMX)",
+        "type": "Prophylactic Antibiotic",
+        "dosage": "1 double-strength tablet (160/800 mg) orally once daily",
+        "notes": "For PCP prophylaxis when CD4 count < 200 cells/μL.",
+        "source": "CDC"
+      }
+    ]
+  },
+  {
+    "disease": "Hepatitis B",
+    "category": "Infectious",
+    "common_symptoms": [
+      "jaundice",
+      "fatigue",
+      "abdominal pain"
+    ],
+    "vital_signs": {
+      "fever": "medium",
+      "heart_rate": "normal",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "jaundice": "high",
+      "fatigue": "medium",
+      "abdominal pain": "medium"
+    },
+    "possible_treatments": [
+      "antivirals",
+      "supportive care"
+    ],
+    "notes": "Viral liver infection",
+    "detailed_treatments": [
+      {
+        "name": "Tenofovir Disoproxil Fumarate (TDF)",
+        "type": "Antiviral (Nucleotide Analogue)",
+        "dosage": "300 mg orally once daily",
+        "notes": "First-line treatment. High barrier to resistance. Monitor renal function.",
+        "source": "AASLD / Mayo Clinic"
+      },
+      {
+        "name": "Entecavir",
+        "type": "Antiviral (Nucleoside Analogue)",
+        "dosage": "0.5 mg orally once daily (1 mg if lamivudine-resistant)",
+        "notes": "Excellent long-term safety profile.",
+        "source": "EASL Guidelines"
+      },
+      {
+        "name": "Pegylated Interferon alfa-2a",
+        "type": "Immunomodulatory",
+        "dosage": "180 mcg subcutaneously once weekly for 48 weeks",
+        "notes": "Finite treatment duration; not for decompensated cirrhosis.",
+        "source": "AASLD"
+      }
+    ]
+  },
+  {
+    "disease": "Hepatitis C",
+    "category": "Infectious",
+    "common_symptoms": [
+      "fatigue",
+      "jaundice",
+      "nausea"
+    ],
+    "vital_signs": {
+      "fever": "low",
+      "heart_rate": "normal",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "fatigue": "high",
+      "jaundice": "medium",
+      "nausea": "medium"
+    },
+    "possible_treatments": [
+      "direct-acting antivirals"
+    ],
+    "notes": "Chronic viral liver infection",
+    "detailed_treatments": [
+      {
+        "name": "Sofosbuvir/Ledipasvir (Harvoni)",
+        "type": "Direct-Acting Antiviral",
+        "dosage": "1 tablet (Sofosbuvir 400 mg / Ledipasvir 90 mg) orally once daily for 8–12 weeks",
+        "notes": "For genotype 1 (most common). SVR12 >95%.",
+        "source": "AASLD / EASL"
+      },
+      {
+        "name": "Glecaprevir/Pibrentasvir (Mavyret)",
+        "type": "Direct-Acting Antiviral",
+        "dosage": "3 tablets (100 mg/40 mg each) orally once daily with food for 8–16 weeks",
+        "notes": "Pan-genotypic, 8 weeks for treatment-naive non-cirrhotic.",
+        "source": "AASLD"
+      }
+    ]
+  },
+  {
+    "disease": "Dengue Fever",
+    "category": "Infectious",
+    "common_symptoms": [
+      "high fever",
+      "rash",
+      "joint pain"
+    ],
+    "vital_signs": {
+      "fever": "high",
+      "heart_rate": "high",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "high fever": "high",
+      "rash": "medium",
+      "joint pain": "medium"
+    },
+    "possible_treatments": [
+      "supportive care",
+      "hydration"
+    ],
+    "notes": "Mosquito-borne viral disease",
+    "detailed_treatments": [
+      {
+        "name": "Oral Rehydration / IV Fluids",
+        "type": "Supportive Care",
+        "dosage": "Mild: oral fluids 2–3 L/day; Severe: Normal saline IV 10–20 mL/kg bolus",
+        "notes": "Mainstay of treatment. Monitor for dengue shock syndrome.",
+        "source": "WHO"
+      },
+      {
+        "name": "Acetaminophen (Paracetamol)",
+        "type": "Antipyretic/Analgesic",
+        "dosage": "500–1000 mg every 4–6 hours, max 4000 mg/day",
+        "notes": "AVOID NSAIDs and aspirin due to bleeding risk.",
+        "source": "WHO / CDC"
+      }
+    ]
+  },
+  {
+    "disease": "Malaria",
+    "category": "Infectious",
+    "common_symptoms": [
+      "fever",
+      "chills",
+      "sweating"
+    ],
+    "vital_signs": {
+      "fever": "high",
+      "heart_rate": "moderate",
+      "oxygen_saturation": "normal"
+    },
+    "symptom_prevalence": {
+      "fever": "high",
+      "chills": "high",
+      "sweating": "medium"
+    },
+    "possible_treatments": [
+      "antimalarial drugs"
+    ],
+    "notes": "Parasitic infection transmitted by mosquitoes",
+    "detailed_treatments": [
+      {
+        "name": "Artemether-Lumefantrine (Coartem)",
+        "type": "Antimalarial",
+        "dosage": "Adults (≥35 kg): 4 tablets at 0, 8, 24, 36, 48, 60 hours (6 doses total)",
+        "notes": "First-line treatment for uncomplicated P. falciparum malaria.",
+        "source": "WHO"
+      },
+      {
+        "name": "Artesunate IV",
+        "type": "Antimalarial (Severe Malaria)",
+        "dosage": "2.4 mg/kg IV at 0, 12, 24 hours, then once daily",
+        "notes": "For severe malaria. Switch to oral once patient can tolerate.",
+        "source": "WHO"
+      },
+      {
+        "name": "Chloroquine",
+        "type": "Antimalarial",
+        "dosage": "600 mg base initially, then 300 mg at 6, 24, 48 hours",
+        "notes": "For P. vivax and P. ovale (where chloroquine-sensitive).",
+        "source": "CDC"
+      }
+    ]
+  },
+  {
+    "disease": "COVID-19",
+    "category": "Infectious",
+    "common_symptoms": [
+      "fever",
+      "cough",
+      "shortness of breath"
+    ],
+    "vital_signs": {
+      "fever": "high",
+      "heart_rate": "moderate",
+      "oxygen_saturation": "low"
+    },
+    "symptom_prevalence": {
+      "fever": "high",
+      "cough": "high",
+      "shortness of breath": "high"
+    },
+    "possible_treatments": [
+      "antivirals",
+      "supportive care",
+      "oxygen therapy"
+    ],
+    "notes": "Coronavirus disease 2019",
+    "detailed_treatments": [
+      {
+        "name": "Nirmatrelvir/Ritonavir (Paxlovid)",
+        "type": "Antiviral",
+        "dosage": "Nirmatrelvir 300 mg + Ritonavir 100 mg orally twice daily for 5 days",
+        "notes": "For high-risk adults with mild-moderate COVID-19. Start within 5 days of symptoms.",
+        "source": "FDA / Mayo Clinic"
+      },
+      {
+        "name": "Remdesivir",
+        "type": "Antiviral",
+        "dosage": "200 mg IV on Day 1, then 100 mg IV once daily for 4 more days",
+        "notes": "For hospitalized patients requiring supplemental oxygen.",
+        "source": "WHO / NIH"
+      },
+      {
+        "name": "Dexamethasone",
+        "type": "Corticosteroid",
+        "dosage": "6 mg orally or IV once daily for up to 10 days",
+        "notes": "Only for patients requiring oxygen or mechanical ventilation.",
+        "source": "WHO / RECOVERY Trial"
+      },
+      {
+        "name": "Acetaminophen",
+        "type": "Antipyretic",
+        "dosage": "500–1000 mg every 4–6 hours as needed, max 4000 mg/day",
+        "notes": "For fever and discomfort management.",
+        "source": "Mayo Clinic"
+      }
+    ]
+  }
+]
