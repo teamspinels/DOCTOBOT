@@ -1,0 +1,34 @@
+#include <Wire.h>
+#include <Adafruit_MLX90614.h>
+
+Adafruit_MLX90614 mlx = Adafruit_MLX90614();
+
+void setup() {
+  // Use 9600 to match your Python script
+  Serial.begin(9600);
+  
+  // Initialize sensor
+  if (!mlx.begin()) {
+    // If initialization fails, we don't print to Serial 
+    // to avoid confusing the Python script's unpacking logic.
+    while (1); 
+  }
+}
+
+void loop() {
+  // Wait until Python sends a character
+  if (Serial.available() > 0) {
+    char cmd = Serial.read();
+    
+    // If the command is 'R' (Request), send data
+    if (cmd == 'R') {
+      float ambient = mlx.readAmbientTempC();
+      float object = mlx.readObjectTempC();
+
+      // Output format: 25.12,30.45
+      Serial.print(ambient);
+      Serial.print(",");
+      Serial.println(object);
+    }
+  }
+}
