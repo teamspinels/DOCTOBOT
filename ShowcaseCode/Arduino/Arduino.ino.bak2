@@ -1,0 +1,91 @@
+#include <Adafruit_Fingerprint.h>
+#include <avr/sleep.h>
+
+Adafruit_Fingerprint finger = Adafruit_Fingerprint(&Serial1);
+const int wakeUpPin = 2; 
+
+void wakeUp() {
+  sleep_disable();
+  detachInterrupt(digitalPinToInterrupt(wakeUpPin));
+}
+
+void enterSleep() {
+  attachInterrupt(digitalPinToInterrupt(wakeUpPin), wakeUp, LOW);
+  set_sleep_mode(SLEEP_MODE_PWR_DOWN);
+  sleep_enable();
+  sleep_cpu(); 
+}
+
+void setup() {
+  Serial.begin(9600);    
+  Serial1.begin(57600);  
+  pinMode(wakeUpPin, INPUT_PULLUP);
+  if (!finger.verifyPassword()) while (1);
+}
+
+void loop() {
+  // بمجرد الاستيقاظ أو في كل دورة، نحاول قراءة البصمة
+  int result = getFingerprintID();
+  
+  if (result != -2) { // إذا كان هناك إصبع على الحساس
+    Serial.println(result); // سيرسل ID البصمة أو -1 إذا لم تكن مسجلة
+    delay(1000); // تأخير بسيط لمنع التكرار السريع
+  }
+
+  // إذا تم إرسال 'S' من بايثون، ندخل وضع التسجيل
+  if (Serial.available() > 0) {
+    char cmd = Serial.read();
+    if (cmd == 'S') {
+      int id = Serial.parseInt();
+      enrollFingerprint(id);
+    }
+  }
+
+  delay(100);
+  enterSleep(); // العودة للنوم بانتظار لمسة إصبع جديدة
+}
+
+int getFingerprintID() {
+  uint8_t p = finger.getImage();
+  if (p != FINGERPRINT_OK) return -2; // لا يوجد إصبع
+
+  p = finger.image2Tz();
+  if (p != FINGERPRINT_OK) return -1;
+
+  p = finger.fingerFastSearch();
+  if (p == FINGERPRINT_OK) return finger.fingerID;
+  else return -1;
+}
+
+void enrollFingerprint(int id) {
+  int p = -1;
+  // أخذ الصورة الأولى
+  while (p != FINGERPRINT_OK) {
+    p = finger.getImage();
+  }
+  p = finger.image2Tz(1);
+  if (p != FINGERPRINT_OK) { Serial.println("-1"); return; }
+  
+  delay(2000); // وقت لرفع الإصبع وإعادته
+  
+  // أخذ الصورة الثانية للتأكيد
+  p = -1;
+  while (p != FINGERPRINT_OK) {
+    p = finger.getImage();
+  }
+  p = finger.image2Tz(2);
+  if (p != FINGERPRINT_OK) { Serial.println("-1"); return; }
+  
+  // تخزين البصمة
+  p = finger.createModel();
+  if (p == FINGERPRINT_OK) {
+    p = finger.storeModel(id);
+    if (p == FINGERPRINT_OK) {
+      Serial.println(id); // تم التسجيل بنجاح، إرسال الـ ID
+    } else {
+      Serial.println("-1");
+    }
+  } else {
+    Serial.println("-1");
+  }
+}
